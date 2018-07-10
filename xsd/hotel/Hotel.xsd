@@ -1,0 +1,55 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCountry.xsd"/>
+	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyBrand.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelType.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelStatus.xsd"/>
+	<xs:include schemaLocation = "../general/TextHotel.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelServices.xsd"/>
+	<xs:include schemaLocation = "../general/Time.xsd"/>
+	<xs:include schemaLocation = "../general/Link.xsd"/>
+	<xs:include schemaLocation = "../general/ContactInfo.xsd"/>
+<xs:element name = "Hotel">
+<xs:complexType>
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextHotel" minOccurs="0" />
+		<xs:element name="image" type= "xs:string" minOccurs="0" />
+		<xs:element name="heroImage" type= "xs:string" minOccurs="0" />
+		<xs:element name="checkIn" type= "Time" minOccurs="0" />
+		<xs:element name="contactInfo" type= "ContactInfo" minOccurs="0" />
+		<xs:element name="coordinates" type= "Coordinates" minOccurs="0" />
+		<xs:element name="mediaList" type= "Link" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="seo" type= "xs:string" minOccurs="0" />
+		<xs:element name="seoLocation" type= "xs:string" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "Meta">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="name" type= "keyHotelName" minOccurs="0" />
+		<xs:element name="sitaCode" type= "xs:string" minOccurs="0" />
+		<xs:element name="tripadvisor" type= "xs:string" minOccurs="0" />
+		<xs:element name="brand" type= "keyBrand" minOccurs="0" />
+		<xs:element name="city" type= "keyCity" minOccurs="0" />
+		<xs:element name="country" type= "keyCountry" minOccurs="0" />
+		<xs:element name="state" type= "keyState" minOccurs="0" />
+		<xs:element name="hotelType" type= "keyHotelType" minOccurs="0" />
+		<xs:element name="service" type= "keyHotelServices" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="nearbyHotel" type= "keyHotelName" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="synonyms" type= "xs:string" minOccurs="0" />
+		<xs:element name="status" type= "keyHotelStatus" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

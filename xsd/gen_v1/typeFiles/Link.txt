@@ -1,0 +1,8 @@
+Link
+text	CTA text	String	No	Yes	general
+title	CTA title attribute text	String	No	Yes	General
+externalUrl	Link to an external url	String	No	No	General
+seo	Link to an internal landing page	Component Link (SEO)	No	No	General
+blank	Indicate to open the url in a new window	String	No	No	[Yes, No]
+iconClass	Which icon display (ex: Social Media)	String (Dropdown options)	No	No	General
+pdf	PDF	Component Link (PDF)	No	No	General

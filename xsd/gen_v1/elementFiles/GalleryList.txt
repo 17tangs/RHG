@@ -1,0 +1,4 @@
+GalleryList
+multimedia	List of galleries	Component Link (Gallery)	Yes	Yes	General
+hotel	To which hotel the gallery belongs	Keyword (Category: Hotel Name)	No	No	Metadata
+room	To which room the gallery belongs	Keyword (Category: Room Name)	No	No	Metadata

@@ -1,0 +1,27 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/Gallery.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyRoomName.xsd"/>
+<xs:element name = "GalleryList">
+<xs:complexType>
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="multimedia" type= "Gallery" minOccurs="0"  maxOccurs="unbounded" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "Meta">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="hotel" type= "keyHotelName" minOccurs="0" />
+		<xs:element name="room" type= "keyRoomName" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

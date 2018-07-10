@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<Category name = "Hotel" xmlName = "Hotel" isPublishable = "Yes">
+	<Keyword>
+		<value>Australia</value>
+		<description>Australia</description>
+		<key>AU</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Victoria, Australia</value>
+				<description>Victoria</description>
+				<key>VI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New South Wales, Australia</value>
+				<description>New South Wales</description>
+				<key>NS</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Brazil</value>
+		<description>Brazil</description>
+		<key>BR</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Rio De Janeiro, Brazil</value>
+				<description>Rio De Janeiro</description>
+				<key>RJ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Minas Gerais, Brazil</value>
+				<description>Minas Gerais</description>
+				<key>MG</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sao Paulo, Brazil</value>
+				<description>Sao Paulo</description>
+				<key>SP</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Pernambuco, Brazil</value>
+				<description>Pernambuco</description>
+				<key>PE</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Canada</value>
+		<description>Canada</description>
+		<key>CA</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Alberta, Canada</value>
+				<description>Alberta</description>
+				<key>AB</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>British Columbia, Canada</value>
+				<description>British Columbia</description>
+				<key>BC</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Ontario, Canada</value>
+				<description>Ontario</description>
+				<key>ON</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New Brunswick, Canada</value>
+				<description>New Brunswick</description>
+				<key>NB</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Manitoba, Canada</value>
+				<description>Manitoba</description>
+				<key>MB</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Saskatchewan, Canada</value>
+				<description>Saskatchewan</description>
+				<key>SK</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Chile</value>
+		<description>Chile</description>
+		<key>CL</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Valparaiso, Chile</value>
+				<description>Valparaiso</description>
+				<key>VS</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Germany</value>
+		<description>Germany</description>
+		<key>DE</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Bavaria, Germany</value>
+				<description>Bavaria</description>
+				<key>BY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>India</value>
+		<description>India</description>
+		<key>IN</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Gujarat, India</value>
+				<description>Gujarat</description>
+				<key>GJ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Maharashtra, India</value>
+				<description>Maharashtra</description>
+				<key>MH</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Punjab, India</value>
+				<description>Punjab</description>
+				<key>PB</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Rajasthan, India</value>
+				<description>Rajasthan</description>
+				<key>RJ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Karnataka, India</value>
+				<description>Karnataka</description>
+				<key>KA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Goa, India</value>
+				<description>Goa</description>
+				<key>GA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Haryana, India</value>
+				<description>Haryana</description>
+				<key>HR</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Uttar Pradesh, India</value>
+				<description>Uttar Pradesh</description>
+				<key>UP</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Kerala, India</value>
+				<description>Kerala</description>
+				<key>KL</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Madhya Pradesh, India</value>
+				<description>Madhya Pradesh</description>
+				<key>MP</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Andhra Pradesh, India</value>
+				<description>Andhra Pradesh</description>
+				<key>AP</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>West Bengal, India</value>
+				<description>West Bengal</description>
+				<key>WB</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Indonesia</value>
+		<description>Indonesia</description>
+		<key>ID</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Riau, Indonesia</value>
+				<description>Riau</description>
+				<key>RI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sumatera Utara, Indonesia</value>
+				<description>Sumatera Utara</description>
+				<key>SU</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Mexico</value>
+		<description>Mexico</description>
+		<key>MX</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Morelos, Mexico</value>
+				<description>Morelos</description>
+				<key>MO</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Distrito Federal, Mexico</value>
+				<description>Distrito Federal</description>
+				<key>DF</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Mexico, Mexico</value>
+				<description>Mexico</description>
+				<key>MX</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sinaloa, Mexico</value>
+				<description>Sinaloa</description>
+				<key>SI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Nuevo Leon, Mexico</value>
+				<description>Nuevo Leon</description>
+				<key>NL</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Netherlands</value>
+		<description>Netherlands</description>
+		<key>NL</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Zuid Holland, Netherlands</value>
+				<description>Zuid Holland</description>
+				<key>ZH</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>United States</value>
+		<description>United States</description>
+		<key>US</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Ohio, United States</value>
+				<description>Ohio</description>
+				<key>OH</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Alabama, United States</value>
+				<description>Alabama</description>
+				<key>AL</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Arkansas, United States</value>
+				<description>Arkansas</description>
+				<key>AR</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Arizona, United States</value>
+				<description>Arizona</description>
+				<key>AZ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>California, United States</value>
+				<description>California</description>
+				<key>CA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Minnesota, United States</value>
+				<description>Minnesota</description>
+				<key>MN</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Massachusetts, United States</value>
+				<description>Massachusetts</description>
+				<key>MA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Nebraska, United States</value>
+				<description>Nebraska</description>
+				<key>NE</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Colorado, United States</value>
+				<description>Colorado</description>
+				<key>CO</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Delaware, United States</value>
+				<description>Delaware</description>
+				<key>DE</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Texas, United States</value>
+				<description>Texas</description>
+				<key>TX</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>North Dakota, United States</value>
+				<description>North Dakota</description>
+				<key>ND</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Florida, United States</value>
+				<description>Florida</description>
+				<key>FL</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Georgia, United States</value>
+				<description>Georgia</description>
+				<key>GA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Wisconsin, United States</value>
+				<description>Wisconsin</description>
+				<key>WI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Michigan, United States</value>
+				<description>Michigan</description>
+				<key>MI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Iowa, United States</value>
+				<description>Iowa</description>
+				<key>IA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Idaho, United States</value>
+				<description>Idaho</description>
+				<key>ID</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Illinois, United States</value>
+				<description>Illinois</description>
+				<key>IL</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Indiana, United States</value>
+				<description>Indiana</description>
+				<key>IN</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Kansas, United States</value>
+				<description>Kansas</description>
+				<key>KS</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Kentucky, United States</value>
+				<description>Kentucky</description>
+				<key>KY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Louisiana, United States</value>
+				<description>Louisiana</description>
+				<key>LA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Maryland, United States</value>
+				<description>Maryland</description>
+				<key>MD</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New Jersey, United States</value>
+				<description>New Jersey</description>
+				<key>NJ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Missouri, United States</value>
+				<description>Missouri</description>
+				<key>MO</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Mississippi, United States</value>
+				<description>Mississippi</description>
+				<key>MS</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Montana, United States</value>
+				<description>Montana</description>
+				<key>MT</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>North Carolina, United States</value>
+				<description>North Carolina</description>
+				<key>NC</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New Hampshire, United States</value>
+				<description>New Hampshire</description>
+				<key>NH</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New Mexico, United States</value>
+				<description>New Mexico</description>
+				<key>NM</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>New York, United States</value>
+				<description>New York</description>
+				<key>NY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Oklahoma, United States</value>
+				<description>Oklahoma</description>
+				<key>OK</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Oregon, United States</value>
+				<description>Oregon</description>
+				<key>OR</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Pennsylvania, United States</value>
+				<description>Pennsylvania</description>
+				<key>PA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Rhode Island, United States</value>
+				<description>Rhode Island</description>
+				<key>RI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Utah, United States</value>
+				<description>Utah</description>
+				<key>UT</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>South Carolina, United States</value>
+				<description>South Carolina</description>
+				<key>SC</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>South Dakota, United States</value>
+				<description>South Dakota</description>
+				<key>SD</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Tennessee, United States</value>
+				<description>Tennessee</description>
+				<key>TN</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Virginia, United States</value>
+				<description>Virginia</description>
+				<key>VA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Washington, United States</value>
+				<description>Washington</description>
+				<key>WA</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>West Virginia, United States</value>
+				<description>West Virginia</description>
+				<key>WV</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Wyoming, United States</value>
+				<description>Wyoming</description>
+				<key>WY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+</Category>

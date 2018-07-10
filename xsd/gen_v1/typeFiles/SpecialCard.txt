@@ -1,0 +1,4 @@
+SpecialCard
+image	Image (1440x416)	Multimedia Link (ECL)	No	Yes	General
+text	Title and description	Component Link (Text:  Special Card)	No	No	General
+link	Link to a landing page	Component Link (Link)	No	No	General

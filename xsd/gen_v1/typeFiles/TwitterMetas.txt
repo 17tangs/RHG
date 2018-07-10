@@ -1,0 +1,6 @@
+TwitterMetas
+summary	Summary	String	No	No	General
+site	Site	String	No	No	General		
+title	Title	String	No	No	General
+description	Description	String	No	No	General
+image	Image	Multimedia Link (ECL)	No	No	General

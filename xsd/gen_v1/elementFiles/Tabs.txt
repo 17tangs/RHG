@@ -1,0 +1,2 @@
+Tabs
+tab	List of tabs	Embedded (Tab)	Yes	No	General

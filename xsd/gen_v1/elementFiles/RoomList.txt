@@ -1,0 +1,4 @@
+RoomList
+text	Module text	Component Link (Text: Title + Description)	No	No	General
+list	List of rooms	Component Link (Room)	Yes	Yes	General
+link	See more link	Component Link (Link)	No	No	General

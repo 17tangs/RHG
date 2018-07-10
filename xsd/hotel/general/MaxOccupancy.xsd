@@ -1,0 +1,43 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:complexType name = "MaxOccupancy">
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="maxAdults">
+		<xs:simpleType name = "maxAdults">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "1"/>
+				<xs:enumeration value = "2"/>
+				<xs:enumeration value = "3"/>
+				<xs:enumeration value = "4"/>
+				<xs:enumeration value = "5"/>
+				<xs:enumeration value = "6"/>
+				<xs:enumeration value = "7"/>
+				<xs:enumeration value = "8"/>
+				<xs:enumeration value = "9"/>
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+		<xs:element name="maxChildren">
+		<xs:simpleType name = "maxChildren">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "0"/>
+				<xs:enumeration value = "1"/>
+				<xs:enumeration value = "2"/>
+				<xs:enumeration value = "3"/>
+				<xs:enumeration value = "4"/>
+				<xs:enumeration value = "5"/>
+				<xs:enumeration value = "6"/>
+				<xs:enumeration value = "7"/>
+				<xs:enumeration value = "8"/>
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

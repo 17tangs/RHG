@@ -1,0 +1,10 @@
+Poi
+text	Description [WEP Attractions]	Component Link (Text: Title+Subtitle+Description)	No	No	General
+coordinates	POI Coordinates	Embedded (Coordinates)	No	Yes	General
+hotel	Related Hotel	Keyword (Category: Hotel Name)	Yes	Yes	Metadata
+type	Type of POI (ex: airport)	Keyword (Category: POI Type)	No	Yes	Metadata
+city	City	Keyword (Category: City)	No	Yes	Metadata
+country	Country	Keyword (Category: Country)	No	Yes	Metadata
+state	State	Keyword (Category: State)	No	No	Metadata
+downtown	Is it downtown?	String (Yes/No)	No	Yes	[Yes, No]
+link	Link to a landing page	Component Link (Link)	No	No	General

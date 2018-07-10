@@ -1,0 +1,4 @@
+TextOffer
+infoMessage	Highlighted message	String	No	No	General
+title	Title of the offer	String	No	No	General
+description	Description of the offer	String	No	No	General

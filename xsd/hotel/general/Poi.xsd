@@ -1,0 +1,54 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCountry.xsd"/>
+	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyPoiType.xsd"/>
+	<xs:include schemaLocation = "../general/TextTitleSubtitleDescription.xsd"/>
+	<xs:include schemaLocation = "../general/Link.xsd"/>
+<xs:complexType name = "Poi">
+	<xs:sequence>
+		<xs:attribute name = "schema" type = "xs:string" fixed = "Poi"/>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextTitleSubtitleDescription" minOccurs="0" />
+		<xs:element name="coordinates" type= "Coordinates" minOccurs="0" />
+		<xs:element name="link" type= "Link" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "Meta">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="hotel" type= "keyHotelName" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="type" type= "keyPoiType" minOccurs="0" />
+		<xs:element name="city" type= "keyCity" minOccurs="0" />
+		<xs:element name="country" type= "keyCountry" minOccurs="0" />
+		<xs:element name="state" type= "keyState" minOccurs="0" />
+		<xs:element name="downtown">
+		<xs:simpleType name = "downtown">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "Yes"/>
+				<xs:enumeration value = "No"/>
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+		<xs:element name="priority">
+		<xs:simpleType name = "priority">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "High"/>
+				<xs:enumeration value = "Medium"/>
+				<xs:enumeration value = "Low"/>
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+		<xs:element name="synonyms" type= "xs:string" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

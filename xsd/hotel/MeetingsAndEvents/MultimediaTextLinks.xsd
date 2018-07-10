@@ -1,0 +1,21 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/TextTitleSubtitleDescription.xsd"/>
+	<xs:include schemaLocation = "../general/Link.xsd"/>
+<xs:element name = "MultimediaTextLinks">
+<xs:complexType>
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextTitleSubtitleDescription" minOccurs="0" />
+		<xs:element name="multimedia" type= "xs:string" minOccurs="0" />
+		<xs:element name="link" type= "Link" minOccurs="0" />
+		<xs:element name="linkList" type= "Link" minOccurs="0"  maxOccurs="unbounded" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/Link.xsd"/>
+	<xs:include schemaLocation = "../general/HowToArrive.xsd"/>
+	<xs:include schemaLocation = "../general/TextTitleDescription.xsd"/>
+<xs:element name = "HowToArriveList">
+<xs:complexType>
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextTitleDescription" minOccurs="0" />
+		<xs:element name="list" type= "HowToArrive" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="link" type= "Link" minOccurs="0" />
+		<xs:element name="contactLink" type= "Link" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

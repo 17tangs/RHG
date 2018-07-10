@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:complexType name = "TextRoom">
+	<xs:sequence>
+		<xs:attribute name = "schema" type = "xs:string" fixed = "TextRoom"/>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="shortDescription" type= "xs:string" minOccurs="0" />
+		<xs:element name="longDescription" type= "xs:string" minOccurs="0" />
+		<xs:element name="tempMessage" type= "xs:string" minOccurs="0" />
+		<xs:element name="size" type= "xs:string" minOccurs="0" />
+		<xs:element name="metric" type= "xs:string" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

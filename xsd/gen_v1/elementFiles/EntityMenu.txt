@@ -1,0 +1,2 @@
+EntityMenu
+menu	List of the menu items	Embedded (Menu)	Yes	Yes	General

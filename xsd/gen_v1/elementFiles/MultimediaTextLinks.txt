@@ -1,0 +1,5 @@
+MultimediaTextLinks
+text	Module text	Component Link (Text: Title + Subtitle + Description)	No	Yes	General
+multimedia	List of images/videos	Multimedia Link(ECL) or Gallery	No	No	General
+link	See more link	Component Link (Link)	No	No	General
+linkList	List of links	Component Link (Link)	Yes	No	General

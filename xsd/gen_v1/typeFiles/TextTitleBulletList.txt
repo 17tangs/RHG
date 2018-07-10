@@ -1,0 +1,3 @@
+TextTitleBulletList
+title	Title Text	String	No	No	General
+list	Bullet List	String	Yes	No	General

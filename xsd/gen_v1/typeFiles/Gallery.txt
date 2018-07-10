@@ -1,0 +1,4 @@
+Gallery
+category	Gallery category	Keyword (Category: Gallery Category)	No	No	General
+mainImage	Main Image / Video/ Virtual Tour	Multimedia Link (ECL)	No	Yes	General
+image	Image / Video / Virtual Tour (include main image with new image size)	Multimedia Link (ECL)	Yes	Yes	General

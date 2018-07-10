@@ -1,0 +1,9 @@
+Room
+text	Text component that contains the entire text of the room 	Component Link (Text Room)	No	No	General
+image	Main room image	Multimedia Link (ECL)	No	No	General
+services	Services offered by the room	Keyword (Category: Room Services)	Yes	No	General
+bedType	Types of beds	Embedded (Bed Type)	Yes	No	General
+maxOccupancy	Maximum occupancy	Embedded (Max Occupancy)	No	No	General
+room	Name of the room	Keyword (Category: Room Name)	No	Yes	Metadata
+hotel	To which hotel the room belongs	Keyword (Category: Hotel Name)	No	Yes	Metadata
+backCode	CRS room ID	String	No	No	Metadata

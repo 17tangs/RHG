@@ -1,0 +1,33 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/TextRoom.xsd"/>
+	<xs:include schemaLocation = "../general/BedTypes.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
+	<xs:include schemaLocation = "../general/MaxOccupancy.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyRoomServices.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyRoomName.xsd"/>
+<xs:complexType name = "Room">
+	<xs:sequence>
+		<xs:attribute name = "schema" type = "xs:string" fixed = "Room"/>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextRoom" minOccurs="0" />
+		<xs:element name="image" type= "xs:string" minOccurs="0" />
+		<xs:element name="services" type= "keyRoomServices" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="bedType" type= "BedTypes" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="maxOccupancy" type= "MaxOccupancy" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+<xs:element name = "Meta">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="room" type= "keyRoomName" minOccurs="0" />
+		<xs:element name="hotel" type= "keyHotelName" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

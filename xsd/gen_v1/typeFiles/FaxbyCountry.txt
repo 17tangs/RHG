@@ -1,0 +1,3 @@
+FaxbyCountry
+country	Country 	Keyword (Category: Country)	No	No	General
+fax	Fax	String	No	No	General

@@ -1,0 +1,4 @@
+Menu
+title	Name of the tab	Component Link (Title)	No	Yes	General
+seo	Link to the hotel secion	Component Link (SEO)	No	No	General
+urlExterna	Link to an external url	String	No	No	General

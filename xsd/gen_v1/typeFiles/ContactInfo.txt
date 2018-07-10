@@ -1,0 +1,5 @@
+ContactInfo
+address	Address	String	No	No	General
+zip	Postal code	String	No	No	General
+phone	Telephone number	String	No	No	General
+email	Email	String	No	No	General

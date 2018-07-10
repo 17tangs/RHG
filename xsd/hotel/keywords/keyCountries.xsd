@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+		<xs:simpleType name = "keyCountries">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "Australia"/>
+				<xs:enumeration value = "Brazil"/>
+				<xs:enumeration value = "Canada"/>
+				<xs:enumeration value = "Chile"/>
+				<xs:enumeration value = "Germany"/>
+				<xs:enumeration value = "India"/>
+				<xs:enumeration value = "Indonesia"/>
+				<xs:enumeration value = "Mexico"/>
+				<xs:enumeration value = "Netherlands"/>
+				<xs:enumeration value = "United States"/>
+			</xs:restriction>
+		</xs:simpleType>
+</xs:schema>

@@ -1,0 +1,23 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/PhoneNumberByCountry.xsd"/>
+	<xs:include schemaLocation = "../general/TextTitle.xsd"/>
+	<xs:include schemaLocation = "../general/FaxByCountry.xsd"/>
+	<xs:include schemaLocation = "../general/EmailByCountry.xsd"/>
+<xs:element name = "EntityContactCard">
+<xs:complexType>
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="text" type= "TextTitle" minOccurs="0" />
+		<xs:element name="phone" type= "PhoneNumberByCountry" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="email" type= "EmailByCountry" minOccurs="0"  maxOccurs="unbounded" />
+		<xs:element name="fax" type= "FaxByCountry" minOccurs="0"  maxOccurs="unbounded" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+</xs:schema>

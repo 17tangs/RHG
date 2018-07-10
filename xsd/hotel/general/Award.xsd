@@ -1,0 +1,19 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../keywords/keyAwardType.xsd"/>
+	<xs:include schemaLocation = "../general/TextTitleSubtitle.xsd"/>
+<xs:complexType name = "Award">
+	<xs:sequence>
+		<xs:attribute name = "schema" type = "xs:string" fixed = "Award"/>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="image" type= "xs:string" minOccurs="0" />
+		<xs:element name="text" type= "TextTitleSubtitle" minOccurs="0" />
+		<xs:element name="type" type= "keyAwardType" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

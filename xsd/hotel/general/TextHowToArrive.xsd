@@ -1,0 +1,17 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../general/SubtitleDescription.xsd"/>
+<xs:complexType name = "TextHowToArrive">
+	<xs:sequence>
+		<xs:attribute name = "schema" type = "xs:string" fixed = "TextHowToArrive"/>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="title" type= "xs:string" minOccurs="0" />
+		<xs:element name="from" type= "SubtitleDescription" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

@@ -1,0 +1,6 @@
+CardImageTextLink
+image	Image	Multimedia Link (ECL)	No	No	General
+iconClass	Icon	String (Dropdown with options)	No	No	General
+text	Module text	Component Link (Text: Title + Subtitle + Description)	No	No	General
+link	Link to a landing page	Component Link (Link)	No	No	General
+

@@ -1,0 +1,4 @@
+Contact
+text	Title of the module	Component Link (Text: Title)	No	Yes	General
+list	List of contact cards	Component Link (Contact Card)	Yes	Yes	General
+link	Link to landing page	Component Link (Link)	No	No	General

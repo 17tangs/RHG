@@ -1,0 +1,44 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:complexType name = "Time">
+	<xs:sequence>
+<xs:element name = "General">
+<xs:complexType>
+	<xs:sequence>
+		<xs:element name="hour">
+		<xs:simpleType name = "hour">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "00"/>
+				<xs:enumeration value = "01"/>
+				<xs:enumeration value = "02"/>
+				<xs:enumeration value = "03"/>
+				<xs:enumeration value = "04"/>
+				<xs:enumeration value = "05"/>
+				<xs:enumeration value = "06"/>
+				<xs:enumeration value = "07"/>
+				<xs:enumeration value = "08"/>
+				<xs:enumeration value = "09"/>
+				<xs:enumeration value = "10"/>
+				<xs:enumeration value = "11"/>
+				<xs:enumeration value = "12"/>
+				<xs:enumeration value = "13"/>
+				<xs:enumeration value = "14"/>
+				<xs:enumeration value = "15"/>
+				<xs:enumeration value = "16"/>
+				<xs:enumeration value = "17"/>
+				<xs:enumeration value = "18"/>
+				<xs:enumeration value = "19"/>
+				<xs:enumeration value = "20"/>
+				<xs:enumeration value = "21"/>
+				<xs:enumeration value = "22"/>
+				<xs:enumeration value = "23"/>
+			</xs:restriction>
+		</xs:simpleType>
+		</xs:element>
+		<xs:element name="minute" type= "xs:string" minOccurs="0" />
+	</xs:sequence>
+</xs:complexType>
+</xs:element>
+	</xs:sequence>
+</xs:complexType>
+</xs:schema>

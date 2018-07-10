@@ -1,0 +1,5 @@
+Award
+image	Image	Multimedia Link (ECL)	No	No	General
+text	Title and description	Component Link (Text: Title + Subtitle)	No	No	General
+type	Award type	Keyword (Category: Award Type)	No	No	General
+

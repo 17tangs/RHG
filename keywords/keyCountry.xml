@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding = "utf-8"?>
+<Category name = "Hotel" xmlName = "Hotel" isPublishable = "Yes">
+	<Keyword>
+		<value>Australia</value>
+		<description>Australia</description>
+		<key>AU</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Brazil</value>
+		<description>Brazil</description>
+		<key>BR</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Canada</value>
+		<description>Canada</description>
+		<key>CA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Chile</value>
+		<description>Chile</description>
+		<key>CL</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Germany</value>
+		<description>Germany</description>
+		<key>DE</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>India</value>
+		<description>India</description>
+		<key>IN</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Indonesia</value>
+		<description>Indonesia</description>
+		<key>ID</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Mexico</value>
+		<description>Mexico</description>
+		<key>MX</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Netherlands</value>
+		<description>Netherlands</description>
+		<key>NL</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>United States</value>
+		<description>United States</description>
+		<key>US</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+</Category>

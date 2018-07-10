@@ -1,0 +1,5 @@
+TextRestaurant
+title	Title	String	No	No	General
+subtitle	Subtitle	String	No	No	General
+description	Description	Rich Text	No	No	General
+openingHours	Opening Hours	String	Yes	No	General

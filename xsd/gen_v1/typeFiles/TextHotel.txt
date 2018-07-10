@@ -1,0 +1,5 @@
+TextHotel
+shortDescription	Short description [RESULT PAGE]	String	No	No	General
+infoMessage	Information messages [ROOM DISPLAY]	String	Yes	No	General
+tempMessage	Temporary message about the hotel status (ex: coming soon)	String	No	No	General
+title	Text displayed in the hero section [Web Extras]	String	No	No	General
