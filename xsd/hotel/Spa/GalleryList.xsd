@@ -1,8 +1,8 @@
 <?xml version = "1.0" encoding= "UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+	<xs:include schemaLocation = "../keywords/keyRoomName.xsd"/>
 	<xs:include schemaLocation = "../general/Gallery.xsd"/>
 	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyRoomName.xsd"/>
 <xs:element name = "GalleryList">
 <xs:complexType>
 	<xs:sequence>

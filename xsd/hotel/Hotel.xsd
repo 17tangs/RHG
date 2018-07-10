@@ -1,18 +1,18 @@
 <?xml version = "1.0" encoding= "UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
 	<xs:include schemaLocation = "../keywords/keyCountry.xsd"/>
-	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyBrand.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelType.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelStatus.xsd"/>
 	<xs:include schemaLocation = "../general/TextHotel.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelServices.xsd"/>
-	<xs:include schemaLocation = "../general/Time.xsd"/>
 	<xs:include schemaLocation = "../general/Link.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelServices.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelType.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyBrand.xsd"/>
+	<xs:include schemaLocation = "../general/Time.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelStatus.xsd"/>
+	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
 	<xs:include schemaLocation = "../general/ContactInfo.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
 <xs:element name = "Hotel">
 <xs:complexType>
 	<xs:sequence>

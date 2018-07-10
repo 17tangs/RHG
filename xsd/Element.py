@@ -120,8 +120,10 @@ class Element:
     def genSimpleType(self):
         if self.enum!=[]:
             return self.genEnum()
-        else:
+        elif self.rang != []:
             return self.genRange()
+        else:
+            return "\t\t<xs:simpleType name = \"" + self.name + "\" type = \"" + self.ty + "\"/>\n"
 
     def genEnum(self):
         s = "\t\t<xs:simpleType name = \"" + self.name + "\">\n\t\t\t<xs:restriction base = \"" + self.ty + "\">\n"

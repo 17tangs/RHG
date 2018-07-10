@@ -1,10 +1,9 @@
-
 import xlrd
 import os
 from Element import Element
 
 FILE = "Entities_Webextra_v3.xlsx"
-DIRECTORY = "C:\\Users\\gf174cq\\RHG\\xsd\\gen_v2\\hotel\\"
+DIRECTORY = "C:\\Users\\gf174cq\\projects\\RHG\\xsd\\hotel\\"
 if not os.path.exists(DIRECTORY):
     os.makedirs(DIRECTORY)
 
@@ -213,6 +212,16 @@ def genKeywords():
             print(True)
             os.makedirs(direct)
         f=open(direct+filename, 'w')
+        output = genHeader() + key.gen() + genFooter()
+        f.write(output)
+        f.close()
+    f = open('keywords.txt','r')
+    keys = [t for t in f.read().split('\n') if t != ""]
+    for k in keys:
+        direct = DIRECTORY + "keywords" + "\\"
+        filename = direct + k + ".xsd"
+        f = open(direct + k + ".xsd", 'w')
+        key = Element(k, "", "string", "No","No", False, None, False, True, ["keywords"])
         output = genHeader() + key.gen() + genFooter()
         f.write(output)
         f.close()

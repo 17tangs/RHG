@@ -1,11 +1,11 @@
 <?xml version = "1.0" encoding= "UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation = "../general/TextRoom.xsd"/>
 	<xs:include schemaLocation = "../general/BedTypes.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
-	<xs:include schemaLocation = "../general/MaxOccupancy.xsd"/>
 	<xs:include schemaLocation = "../keywords/keyRoomServices.xsd"/>
+	<xs:include schemaLocation = "../general/MaxOccupancy.xsd"/>
+	<xs:include schemaLocation = "../general/TextRoom.xsd"/>
 	<xs:include schemaLocation = "../keywords/keyRoomName.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
 <xs:complexType name = "Room">
 	<xs:sequence>
 		<xs:attribute name = "schema" type = "xs:string" fixed = "Room"/>
