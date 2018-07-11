@@ -1,5 +1,6 @@
 import xlrd
 import xlsxwriter
+from mapping import SM, CM
 
 #keyword xml names
 KEYHOTELNAME = "keyHotelName.xml"
@@ -8,11 +9,37 @@ KEYSTATE = "keyState.xml"
 KEYCITY = "keyCity.xml"
 
 #file io file names
-INPUT = 'hotelCode-GRT-PRT-states-noroom.xls'
+INPUT = 'hotelCode-GRT-PRT.xls'
 OUTPUT = 'keywords.xlsx'
 
 #Global variables
 KEYLIST = []
+
+def indices():
+    wb = xlrd.open_workbook(INPUT)
+    ws = wb.sheet_by_index(0)
+    headers = [''.join(s.lower().strip().split(' ')) for s in ws.row_values(0)]
+    IHC = headers.index("hotelcode")
+    IHN = headers.index("hotelname")
+    ICI = headers.index("city")
+    ICO = headers.index("country")
+    IST = headers.index("state")
+    ISN = headers.index("statename")
+    ICN = headers.index("countryname")
+    IBD = headers.index("brand")
+    return [IHC, IHN, ICI, ICO, IST, ISN, ICN, IBD]
+
+#index of excel fields:
+I = indices()
+HOTEL_CODE_INDEX = I[0]
+HOTEL_NAME_INDEX = I[1]
+CITY_INDEX = I[2]
+COUNTRY_CODE_INDEX = I[3]
+STATE_CODE_INDEX = I[4]
+STATE_NAME_INDEX = I[5]
+COUNTRY_NAME_INDEX = I[6]
+BRAND_INDEX = I[7]
+
 class Keyword:
     def __init__(self, v="", d="", k="", a="No", i=0, l=None):
         self.value = v
@@ -41,6 +68,32 @@ class Keyword:
         r += end + '\n'
         return r
 
+
+def genCountryNames():
+    wb = xlrd.open_workbook(INPUT)
+    ws = wb.sheet_by_index(0)
+    cn = ws.col_values(COUNTRY_CODE_INDEX)[1:]
+    f = open('cn.txt', 'w')
+    for code in cn:
+        f.write(CM[code]+'\n')
+    f.close()
+
+def genStateNames():
+    wb = xlrd.open_workbook(INPUT)
+    ws = wb.sheet_by_index(0)
+    sc = ws.col_values(STATE_CODE_INDEX)[1:]
+    cc = ws.col_values(COUNTRY_CODE_INDEX)[1:]
+    id = []
+    for i in range(len(sc)):
+        if sc[i] == '':
+            id.append('')
+        else:
+            id.append(sc[i]+ ' ' + cc[i])
+    f = open('sn.txt', 'w')
+    for code in id:
+        f.write(SM[code]+'\n')
+    f.close()
+
 #parse the name of the countries, states, and city to have capital first letter and lower case rest for each word
 def parseName(s):
     s = s.strip()
@@ -66,34 +119,32 @@ def load():
     wb = xlrd.open_workbook(INPUT)
     ws = wb.sheet_by_index(0)
     #hotel codes
-    hc = [s.strip() for s in ws.col_values(0)[1:]]
+    hc = [s.strip() for s in ws.col_values(HOTEL_CODE_INDEX)[1:]]
     #hotel names
-    hn = [s.strip() for s in ws.col_values(1)[1:]]
+    hn = [s.strip() for s in ws.col_values(HOTEL_NAME_INDEX)[1:]]
     for i in range(len(hn)):
         hn[i] = hn[i].replace("&", "&amp;")
     #city names
-    cities = [s.strip() for s in ws.col_values(2)[1:]]
+    cities = [s.strip() for s in ws.col_values(CITY_INDEX)[1:]]
     #parse the city names to correct format
     for s in range(len(cities)):
         cities[s] = parseName(cities[s])
     #state names
-    states = [s.strip() for s in ws.col_values(3)[1:]]
+    states = [s.strip() for s in ws.col_values(STATE_NAME_INDEX)[1:]]
     for s in range(len(states)):
         states[s] = parseName(states[s])
     #state code
-    sc = [s.strip() for s in ws.col_values(4)[1:]]
+    sc = [s.strip() for s in ws.col_values(STATE_CODE_INDEX)[1:]]
     #country names
-    countries = [s.strip() for s in ws.col_values(5)[1:]]
+    countries = [s.strip() for s in ws.col_values(COUNTRY_NAME_INDEX)[1:]]
     for s in range(len(countries)):
         countries[s] = parseName(countries[s])
     #country code
-    cc = [s.strip() for s in ws.col_values(6)[1:]]
+    cc = [s.strip() for s in ws.col_values(COUNTRY_CODE_INDEX)[1:]]
     #brand names
-    brand = [s.strip() for s in ws.col_values(7)[1:]]
-    return [hc, hn, cities, states, sc, countries, cc, brand]
-
-#number of hotels
-r = 0
+    brand = [s.strip() for s in ws.col_values(BRAND_INDEX)[1:]]
+    pair = dict(zip(["hotelCode", "hotelName", "city", "state", "stateCode", "country", "countryCode", "brand"],[hc, hn, cities, states, sc, countries, cc, brand]))
+    return pair
 
 
 #return the index of the target (tar) in the list (l)
@@ -121,14 +172,14 @@ def genHotelNameTree(data):
     worksheet.set_column('C:C', 40)
     worksheet.set_column('D:D', 10)
     worksheet.set_column('E:E', 50)
-    hc = data[0]
-    hn = data[1]
-    cities = data[2]
-    states = data[3]
-    sc = data[4]
-    countries = data[5]
-    cc = data[6]
-    brand = data[7]
+    hc = data["hotelCode"]
+    hn = data["hotelName"]
+    cities = data["city"]
+    states = data["state"]
+    sc = data["stateCode"]
+    countries = data["country"]
+    cc = data["countryCode"]
+    brand = data["brand"]
     tree = []
     worksheet.write(0,0, "Countries")
     counter = 1
@@ -219,11 +270,11 @@ def parseKeyFrom(s):
     return '-'.join([t.strip().lower() for t in l if t != ""])
 
 def genCityTree(data):
-    cities = data[2]
-    states = data[3]
-    sc = data[4]
-    countries = data[5]
-    cc = data[6]
+    cities = data["city"]
+    states = data["state"]
+    sc = data["stateCode"]
+    countries = data["country"]
+    cc = data["countryCode"]
     tree = []
     for i in range(len(countries)):
         if not exist(tree, countries[i]):
@@ -252,10 +303,10 @@ def genCityTree(data):
     return tree
 
 def genStateTree(data):
-    states = data[3]
-    sc = data[4]
-    countries = data[5]
-    cc = data[6]
+    states = data["state"]
+    sc = data["stateCode"]
+    countries = data["country"]
+    cc = data["countryCode"]
     tree = []
     for i in range(len(countries)):
         if not exist(tree, countries[i]):
@@ -271,8 +322,8 @@ def genStateTree(data):
     return tree
 
 def genCountryTree(data):
-    countries = data[5]
-    cc = data[6]
+    countries = data["country"]
+    cc = data["countryCode"]
     tree = []
     for i in range(len(countries)):
         if not exist(tree, countries[i]):
@@ -305,7 +356,7 @@ def genHotelName():
         content += str(i)
     footer = genFooter()
     output = header + content + footer
-    f = open('keyHotelName.xml', 'w')
+    f = open(KEYHOTELNAME, 'w')
     f.write(output)
     f.close()
 
@@ -319,7 +370,7 @@ def genCity():
         content += str(i)
     footer = genFooter()
     output = header + content + footer
-    f = open('keyCity.xml', 'w')
+    f = open(KEYCITY, 'w')
     f.write(output)
     f.close()
 
@@ -333,7 +384,7 @@ def genState():
         content += str(i)
     footer = genFooter()
     output = header + content + footer
-    f = open('keyState.xml', 'w')
+    f = open(KEYSTATE, 'w')
     f.write(output)
     f.close()
 
@@ -346,7 +397,7 @@ def genCountry():
         content += str(i)
     footer = genFooter()
     output = header + content + footer
-    f = open('keyCountry.xml', 'w')
+    f = open(KEYCOUNTRY, 'w')
     f.write(output)
     f.close()
 
