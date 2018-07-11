@@ -2,7 +2,6 @@ keyPoiType
 keyAwardType
 keyTransport
 keyRoomServices
-keyRoomName
 keyGalleryCategory
 keyBedType
 keyMEFeatures

@@ -139,7 +139,7 @@ def genContent(l, isComp, isElement):
         #always not mandatory, each element is not a component and not complex 
         element = Element(ed[0],ed[1], ed[2], ed[3], "No", False)
         me.append(element)
-    meta = Element("Meta", "", "", "No", "No", False, me, True, False) if me != [] else None
+    meta = Element("Metadata", "", "", "No", "No", False, me, True, False) if me != [] else None
     #parsing the general and meta elements
     ls = cl(general, meta)
     #if it's an element create Element, if it's not create type (last parameter boolean)
@@ -209,7 +209,6 @@ def genKeywords():
         direct = DIRECTORY + "keywords" + "\\"
         filename = name + ".xsd"
         if not os.path.exists(direct):
-            print(True)
             os.makedirs(direct)
         f=open(direct+filename, 'w')
         output = genHeader() + key.gen() + genFooter()

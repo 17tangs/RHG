@@ -1,5 +1,0 @@
-ImageTextLink
-text	Text	Component Link (Text: Title + Subtitle)	No	No	General
-image	image	Component Link (Image)	No	Yes	General
-iconClass	Icon class	String	No	No	General
-link	Link to a landing page	Component Link (Link)	No	No	General

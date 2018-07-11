@@ -1,5 +1,0 @@
-Restaurant
-text	Module text	Component Link (Text: Restaurant)	No	Yes	General
-multimedia	List of images/videos	MultimediaLink(ECL) or Gallery	No	No	General
-link	See more link	Component Link (Link)	No	No	General
-linkList	List of menu PDFs	Component Link(Link)	Yes	No	General

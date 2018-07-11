@@ -1,3 +1,0 @@
-TextTitleDescription
-title	Title Text	String	No	No	General
-description	Description Text	Rich text	No	No	General

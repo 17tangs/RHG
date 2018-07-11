@@ -1,3 +1,0 @@
-Coordinates
-latitude	Latitude	String	No	Yes	General
-longitude	Longitude	String	No	Yes	General

@@ -103,6 +103,9 @@ class Element:
                     r = x
             elif t[:7] == "keyword":
                 x = "key"+parseName(s[s.index(':')+1:s.index(')')])
+                f=open('hi.txt', 'a')
+                f.write(x+'\n')
+                f.close()
                 self.includes.append("../keywords/" + x + ".xsd")
                 r = x
         return r

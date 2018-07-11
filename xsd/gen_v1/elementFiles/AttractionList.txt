@@ -1,5 +1,0 @@
-AttractionList
-text	Title of the module	Component Link (Text: Title + Description)	No	No	General
-list	List of POIs	Component Link (POI)	Yes	No	General
-link	See more link	Component Link (Link)	No	No	General
-attractinonsLink	See attraction in map link	Component Link (Link)	No	No	General

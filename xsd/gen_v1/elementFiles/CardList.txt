@@ -1,3 +1,0 @@
-CardList
-text	Title of the module	Component Link (Text: Title + Description)	No	No	General
-list	List of cards	Component Link (Card)	Yes	Yes	General

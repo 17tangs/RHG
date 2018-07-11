@@ -1,5 +1,0 @@
-TextContactInfo
-contactText	Contact us text	String	No	No	General
-contactPhone	Contact us: Phone number	String	No	No	General
-followUs	Social Media: Follow us text	String	No	No	General
-newsletter	Newsletter: subscribe text	String	No	No	General

@@ -1,4 +1,0 @@
-SocialMeida
-list	List of links	Component Link (Link)	Yes	Yes	General
-title	Title	Component Link (Text: Title)	No	Yes	Metadata
-iconClass	Icon	String	No	Yes	Metadata

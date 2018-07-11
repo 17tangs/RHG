@@ -1,3 +1,0 @@
-MultimediaText2
-columnList	2 columns information	Embedded (Text + Multimedia)	Yes	No	General
-

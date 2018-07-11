@@ -1,3 +1,0 @@
-EmailbyCountry
-country	Country 	Keyword (Category: Country)	No	No	General
-email	Email	String	No	No	General

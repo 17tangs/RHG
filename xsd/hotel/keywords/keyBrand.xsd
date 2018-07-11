@@ -2,10 +2,11 @@
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 		<xs:simpleType name = "keyBrand">
 			<xs:restriction base = "xs:string">
-				<xs:enumeration value = "PKP"/>
 				<xs:enumeration value = "RAD"/>
 				<xs:enumeration value = "CHI"/>
 				<xs:enumeration value = "PII"/>
+				<xs:enumeration value = "QCN"/>
+				<xs:enumeration value = "PKP"/>
 			</xs:restriction>
 		</xs:simpleType>
 </xs:schema>

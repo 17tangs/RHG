@@ -1,4 +1,0 @@
-AwardsAndRecognitions
-text	Title of the module	Component Link (Text: Title + Description)	No	Yes	General
-list	List of awards	Component Link (Award)	Yes	No	General
-link	See more link	Component Link (Link)	No	No	General

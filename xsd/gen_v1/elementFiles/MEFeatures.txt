@@ -1,3 +1,0 @@
-MEFeatures
-text	Text 	Component Link (Text: Title)	No	No	General
-meetingFeature	List of meeting and events features	Keyword (Category: M&E Features)	Yes	No	General

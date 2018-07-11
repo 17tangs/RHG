@@ -1,3 +1,0 @@
-TextLinks
-text	Title and description of the module	Component Link (Text: Title + Description)	No	Yes	General
-link	List of links	Component Link (Link)	Yes	No	General

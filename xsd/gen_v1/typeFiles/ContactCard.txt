@@ -1,5 +1,0 @@
-ContactCard
-text	Global Access Telephone	Component Link (Text: Title)	Yes	No	General
-phone	Phone list	Embedded (Phone Number by Country)	Yes	No	General
-email	Email list	Embedded (Email by Country)	Yes	No	General
-fax	Fax list	Embedded (Fax by Country)	Yes	No	General

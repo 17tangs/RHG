@@ -1,5 +1,0 @@
-HTA
-text	Title of the module	Component Link (Text: Title + Description)	No	Yes	General
-list	List of how to arrive modules	Component Link (Card)	Yes	No	General
-link	See more link	Component Link (Link)	No	No	General
-contactLink	Contact us link	Component Link (Link)	No	No	General

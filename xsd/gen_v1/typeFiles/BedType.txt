@@ -1,4 +1,0 @@
-BedType
-type	Name of the type of bed	Keyword (Category: Bed Type)	No	No	General
-number	Number of beds per room	Number	Yes	No	{1}
-conjunction	Text cohesion (AND, OR)	String (Dropdown options)	Yes	No	[And, Or]

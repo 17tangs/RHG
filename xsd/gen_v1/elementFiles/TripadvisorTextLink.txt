@@ -1,4 +1,0 @@
-TripadvisorTextLink
-text	Text	Component Link (Text: Title + Description)	No	No	General
-tripadvisor	Tripadvisor ID	String	No	Yes	General
-link	Link	Component Link (Link)	No	No	General

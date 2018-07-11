@@ -1,3 +1,0 @@
-TextMultimedia
-text	Description text	Component Link (Text: Title + Description)	No	No	General
-multimedia	Image	Multimedia Link (ECL)	No	No	General

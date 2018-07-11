@@ -1,4 +1,0 @@
-OfferList
-text	Title of the module	Component Link (Text: Title + Description)	No	No	General
-card	List of cards	Component Link (Special Card)	No	Yes	General
-link	See more link	Component Link (Link)	No	No	General

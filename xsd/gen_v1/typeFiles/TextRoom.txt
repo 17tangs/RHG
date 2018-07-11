@@ -1,6 +1,0 @@
-TextRoom
-shortDescription	Short description [ROOM DISPLAY]	String	No	No	General
-longDescription	Long description [WEP]	Rich text	No	No	General
-tempMessage	Temporary message	String	No	No	General
-size	Room size	String	No	No	General
-metric	Metric	String	No	No	General

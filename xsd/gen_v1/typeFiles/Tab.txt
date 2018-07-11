@@ -1,5 +1,0 @@
-Tab
-iconClass	Tab Icon	String	No	No	General
-title	Tab title	Component Link (Text: Title)	No	No	General
-blockList	Block List	Component Link()	Yes	No	General
-

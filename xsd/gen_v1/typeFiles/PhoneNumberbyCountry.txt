@@ -1,3 +1,0 @@
-PhoneNumberbyCountry
-country	Country 	Keyword (Category: Country)	No	No	General
-phone	Phone Number	String	No	No	General

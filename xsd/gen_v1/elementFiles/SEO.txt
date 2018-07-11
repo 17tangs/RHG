@@ -1,8 +1,0 @@
-SEO
-title	Title of the page	String	No	No	General
-description	Description of the page	String	No	No	General
-keywords	Keywords	String	No	No	General
-facebook	Facebook metas	Embedded (Facebook Metas)	No	No	General
-twitter	Twitter metas	Embedded (Twitter Metas)	No	No	General
-destinationSubtitle	Subtitle displayed in the search results page	String	No	No	General
-destinationDescription	Description displayed in the search results page	Rich text	No	No	General

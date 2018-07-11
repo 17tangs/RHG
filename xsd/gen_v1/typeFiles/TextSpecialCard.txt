@@ -1,7 +1,0 @@
-TextSpecialCard
-pretitle	Pre-title of the highlighted card	String	No	No	General
-title	Title of the highlighted card	String	No	No	General
-description	Description of the highlighted card	Rich Text	No	No	General
-titleThumbnail	Title of the thumbnail card	String	No	No	General
-subtitleThumbnail	Subtitle of the thumbnail card	String	No	No	General
-

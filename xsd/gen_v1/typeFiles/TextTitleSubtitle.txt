@@ -1,3 +1,0 @@
-TextTitleSubtitle
-title	Title text	String	No	No	General
-subtitle	Subtitle text	String	No	No	General

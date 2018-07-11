@@ -1,7 +1,7 @@
 <?xml version = "1.0" encoding= "UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation = "../keywords/keyTransport.xsd"/>
 	<xs:include schemaLocation = "../general/TextHowToArrive.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyTransport.xsd"/>
 <xs:complexType name = "HowToArrive">
 	<xs:sequence>
 		<xs:attribute name = "schema" type = "xs:string" fixed = "HowToArrive"/>
