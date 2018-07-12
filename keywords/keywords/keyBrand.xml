@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding = "utf-8"?>
 <Category name = "Brand" xmlName = "Brand" isPublishable = "Yes">
 	<Keyword>
+		<value>PII</value>
+		<description>PII</description>
+		<key>PII</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>RAD</value>
 		<description>RAD</description>
 		<key>RAD</key>
@@ -10,12 +16,6 @@
 		<value>CHI</value>
 		<description>CHI</description>
 		<key>CHI</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>PII</value>
-		<description>PII</description>
-		<key>PII</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>

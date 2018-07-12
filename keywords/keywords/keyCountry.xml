@@ -1,99 +1,15 @@
 <?xml version="1.0" encoding = "utf-8"?>
 <Category name = "Country" xmlName = "Country" isPublishable = "Yes">
 	<Keyword>
-		<value>Denmark</value>
-		<description>Denmark</description>
-		<key>DK</key>
+		<value>United Arab Emirates</value>
+		<description>United Arab Emirates</description>
+		<key>AE</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Canada</value>
-		<description>Canada</description>
-		<key>CA</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Cote D'ivoire</value>
-		<description>Cote D'ivoire</description>
-		<key>CI</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>United Kingdom</value>
-		<description>United Kingdom</description>
-		<key>GB</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Ethiopia</value>
-		<description>Ethiopia</description>
-		<key>ET</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Russian Federation</value>
-		<description>Russian Federation</description>
-		<key>RU</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Norway</value>
-		<description>Norway</description>
-		<key>NO</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>France</value>
-		<description>France</description>
-		<key>FR</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>United States</value>
-		<description>United States</description>
-		<key>US</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Algeria</value>
-		<description>Algeria</description>
-		<key>DZ</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Egypt</value>
-		<description>Egypt</description>
-		<key>EG</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Netherlands</value>
-		<description>Netherlands</description>
-		<key>NL</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Turkey</value>
-		<description>Turkey</description>
-		<key>TR</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Belgium</value>
-		<description>Belgium</description>
-		<key>BE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Sweden</value>
-		<description>Sweden</description>
-		<key>SE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Greece</value>
-		<description>Greece</description>
-		<key>GR</key>
+		<value>Armenia</value>
+		<description>Armenia</description>
+		<key>AM</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -103,21 +19,9 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>United Arab Emirates</value>
-		<description>United Arab Emirates</description>
-		<key>AE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Australia</value>
 		<description>Australia</description>
 		<key>AU</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Bahrain</value>
-		<description>Bahrain</description>
-		<key>BH</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -127,45 +31,33 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Barbados</value>
+		<description>Barbados</description>
+		<key>BB</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Bangladesh</value>
 		<description>Bangladesh</description>
 		<key>BD</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Serbia</value>
-		<description>Serbia</description>
-		<key>RS</key>
+		<value>Belgium</value>
+		<description>Belgium</description>
+		<key>BE</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Belize</value>
-		<description>Belize</description>
-		<key>BZ</key>
+		<value>Bahrain</value>
+		<description>Bahrain</description>
+		<key>BH</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Germany</value>
-		<description>Germany</description>
-		<key>DE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Lebanon</value>
-		<description>Lebanon</description>
-		<key>LB</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>China</value>
-		<description>China</description>
-		<key>CN</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Mali</value>
-		<description>Mali</description>
-		<key>ML</key>
+		<value>Brunei</value>
+		<description>Brunei</description>
+		<key>BN</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -181,45 +73,15 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Barbados</value>
-		<description>Barbados</description>
-		<key>BB</key>
+		<value>Belize</value>
+		<description>Belize</description>
+		<key>BZ</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Brunei</value>
-		<description>Brunei</description>
-		<key>BN</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Switzerland</value>
-		<description>Switzerland</description>
-		<key>CH</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Slovakia</value>
-		<description>Slovakia</description>
-		<key>SK</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Hungary</value>
-		<description>Hungary</description>
-		<key>HU</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Romania</value>
-		<description>Romania</description>
-		<key>RO</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Georgia</value>
-		<description>Georgia</description>
-		<key>GE</key>
+		<value>Canada</value>
+		<description>Canada</description>
+		<key>CA</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -229,15 +91,27 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Switzerland</value>
+		<description>Switzerland</description>
+		<key>CH</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Cote D'ivoire</value>
+		<description>Cote D'ivoire</description>
+		<key>CI</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Chile</value>
 		<description>Chile</description>
 		<key>CL</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>India</value>
-		<description>India</description>
-		<key>IN</key>
+		<value>China</value>
+		<description>China</description>
+		<key>CN</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -253,33 +127,27 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>South Africa</value>
-		<description>South Africa</description>
-		<key>ZA</key>
+		<value>Cyprus</value>
+		<description>Cyprus</description>
+		<key>CY</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Saudi Arabia</value>
-		<description>Saudi Arabia</description>
-		<key>SA</key>
+		<value>Czech Rep</value>
+		<description>Czech Rep</description>
+		<key>CZ</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Tunisia</value>
-		<description>Tunisia</description>
-		<key>TN</key>
+		<value>Germany</value>
+		<description>Germany</description>
+		<key>DE</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Senegal</value>
-		<description>Senegal</description>
-		<key>SN</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Qatar</value>
-		<description>Qatar</description>
-		<key>QA</key>
+		<value>Denmark</value>
+		<description>Denmark</description>
+		<key>DK</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -289,15 +157,9 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Ireland</value>
-		<description>Ireland</description>
-		<key>IE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Uganda</value>
-		<description>Uganda</description>
-		<key>UG</key>
+		<value>Algeria</value>
+		<description>Algeria</description>
+		<key>DZ</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -307,141 +169,15 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Armenia</value>
-		<description>Armenia</description>
-		<key>AM</key>
+		<value>Estonia</value>
+		<description>Estonia</description>
+		<key>EE</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Fiji Islands</value>
-		<description>Fiji Islands</description>
-		<key>FJ</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Sierra Leone</value>
-		<description>Sierra Leone</description>
-		<key>SL</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Poland</value>
-		<description>Poland</description>
-		<key>PL</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Grenada</value>
-		<description>Grenada</description>
-		<key>GD</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Guatemala</value>
-		<description>Guatemala</description>
-		<key>GT</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Finland</value>
-		<description>Finland</description>
-		<key>FI</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Croatia</value>
-		<description>Croatia</description>
-		<key>HR</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Indonesia</value>
-		<description>Indonesia</description>
-		<key>ID</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Ukraine</value>
-		<description>Ukraine</description>
-		<key>UA</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Jersey</value>
-		<description>Jersey</description>
-		<key>JE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Oman</value>
-		<description>Oman</description>
-		<key>OM</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Japan</value>
-		<description>Japan</description>
-		<key>JP</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Rwanda</value>
-		<description>Rwanda</description>
-		<key>RW</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Moldova</value>
-		<description>Moldova</description>
-		<key>MD</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Lithuania</value>
-		<description>Lithuania</description>
-		<key>LT</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Kuwait</value>
-		<description>Kuwait</description>
-		<key>KW</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Latvia</value>
-		<description>Latvia</description>
-		<key>LV</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Gabon</value>
-		<description>Gabon</description>
-		<key>GA</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Cyprus</value>
-		<description>Cyprus</description>
-		<key>CY</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Portugal</value>
-		<description>Portugal</description>
-		<key>PT</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Slovenia</value>
-		<description>Slovenia</description>
-		<key>SI</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Nigeria</value>
-		<description>Nigeria</description>
-		<key>NG</key>
+		<value>Egypt</value>
+		<description>Egypt</description>
+		<key>EG</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -451,21 +187,99 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Zambia</value>
-		<description>Zambia</description>
-		<key>ZM</key>
+		<value>Ethiopia</value>
+		<description>Ethiopia</description>
+		<key>ET</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Luxembourg</value>
-		<description>Luxembourg</description>
-		<key>LU</key>
+		<value>Finland</value>
+		<description>Finland</description>
+		<key>FI</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Mexico</value>
-		<description>Mexico</description>
-		<key>MX</key>
+		<value>Fiji Islands</value>
+		<description>Fiji Islands</description>
+		<key>FJ</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>France</value>
+		<description>France</description>
+		<key>FR</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Gabon</value>
+		<description>Gabon</description>
+		<key>GA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>United Kingdom</value>
+		<description>United Kingdom</description>
+		<key>GB</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Grenada</value>
+		<description>Grenada</description>
+		<key>GD</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Georgia</value>
+		<description>Georgia</description>
+		<key>GE</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Greece</value>
+		<description>Greece</description>
+		<key>GR</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Guatemala</value>
+		<description>Guatemala</description>
+		<key>GT</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Croatia</value>
+		<description>Croatia</description>
+		<key>HR</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Hungary</value>
+		<description>Hungary</description>
+		<key>HU</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Indonesia</value>
+		<description>Indonesia</description>
+		<key>ID</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Ireland</value>
+		<description>Ireland</description>
+		<key>IE</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>India</value>
+		<description>India</description>
+		<key>IN</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Iceland</value>
+		<description>Iceland</description>
+		<key>IS</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -475,21 +289,15 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Malta</value>
-		<description>Malta</description>
-		<key>MT</key>
+		<value>Jersey</value>
+		<description>Jersey</description>
+		<key>JE</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Mozambique</value>
-		<description>Mozambique</description>
-		<key>MZ</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Mauritius</value>
-		<description>Mauritius</description>
-		<key>MU</key>
+		<value>Japan</value>
+		<description>Japan</description>
+		<key>JP</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -499,9 +307,105 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Chad</value>
-		<description>Chad</description>
-		<key>TD</key>
+		<value>Kuwait</value>
+		<description>Kuwait</description>
+		<key>KW</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Kazakhstan</value>
+		<description>Kazakhstan</description>
+		<key>KZ</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Lebanon</value>
+		<description>Lebanon</description>
+		<key>LB</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Lithuania</value>
+		<description>Lithuania</description>
+		<key>LT</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Luxembourg</value>
+		<description>Luxembourg</description>
+		<key>LU</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Latvia</value>
+		<description>Latvia</description>
+		<key>LV</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Libyan Arab Jamahiriya</value>
+		<description>Libyan Arab Jamahiriya</description>
+		<key>LY</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Morocco</value>
+		<description>Morocco</description>
+		<key>MA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Moldova</value>
+		<description>Moldova</description>
+		<key>MD</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Mali</value>
+		<description>Mali</description>
+		<key>ML</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Malta</value>
+		<description>Malta</description>
+		<key>MT</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Mauritius</value>
+		<description>Mauritius</description>
+		<key>MU</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Mexico</value>
+		<description>Mexico</description>
+		<key>MX</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Mozambique</value>
+		<description>Mozambique</description>
+		<key>MZ</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Nigeria</value>
+		<description>Nigeria</description>
+		<key>NG</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Netherlands</value>
+		<description>Netherlands</description>
+		<key>NL</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Norway</value>
+		<description>Norway</description>
+		<key>NO</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -511,9 +415,9 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Czech Rep</value>
-		<description>Czech Rep</description>
-		<key>CZ</key>
+		<value>Oman</value>
+		<description>Oman</description>
+		<key>OM</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -535,21 +439,87 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Morocco</value>
-		<description>Morocco</description>
-		<key>MA</key>
+		<value>Poland</value>
+		<description>Poland</description>
+		<key>PL</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Iceland</value>
-		<description>Iceland</description>
-		<key>IS</key>
+		<value>Portugal</value>
+		<description>Portugal</description>
+		<key>PT</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Uzbekistan</value>
-		<description>Uzbekistan</description>
-		<key>UZ</key>
+		<value>Qatar</value>
+		<description>Qatar</description>
+		<key>QA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Romania</value>
+		<description>Romania</description>
+		<key>RO</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Serbia</value>
+		<description>Serbia</description>
+		<key>RS</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Russian Federation</value>
+		<description>Russian Federation</description>
+		<key>RU</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Rwanda</value>
+		<description>Rwanda</description>
+		<key>RW</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Saudi Arabia</value>
+		<description>Saudi Arabia</description>
+		<key>SA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Sweden</value>
+		<description>Sweden</description>
+		<key>SE</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Slovenia</value>
+		<description>Slovenia</description>
+		<key>SI</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Slovakia</value>
+		<description>Slovakia</description>
+		<key>SK</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Sierra Leone</value>
+		<description>Sierra Leone</description>
+		<key>SL</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Senegal</value>
+		<description>Senegal</description>
+		<key>SN</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Chad</value>
+		<description>Chad</description>
+		<key>TD</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -559,21 +529,15 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Libyan Arab Jamahiriya</value>
-		<description>Libyan Arab Jamahiriya</description>
-		<key>LY</key>
+		<value>Tunisia</value>
+		<description>Tunisia</description>
+		<key>TN</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Estonia</value>
-		<description>Estonia</description>
-		<key>EE</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Kazakhstan</value>
-		<description>Kazakhstan</description>
-		<key>KZ</key>
+		<value>Turkey</value>
+		<description>Turkey</description>
+		<key>TR</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -583,15 +547,51 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Ukraine</value>
+		<description>Ukraine</description>
+		<key>UA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Uganda</value>
+		<description>Uganda</description>
+		<key>UG</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>United States</value>
+		<description>United States</description>
+		<key>US</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Uruguay</value>
 		<description>Uruguay</description>
 		<key>UY</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Uzbekistan</value>
+		<description>Uzbekistan</description>
+		<key>UZ</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Vietnam</value>
 		<description>Vietnam</description>
 		<key>VN</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>South Africa</value>
+		<description>South Africa</description>
+		<key>ZA</key>
+		<isAbstract>No</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Zambia</value>
+		<description>Zambia</description>
+		<key>ZM</key>
 		<isAbstract>No</isAbstract>
 	</Keyword>
 </Category>

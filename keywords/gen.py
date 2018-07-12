@@ -15,7 +15,7 @@ KEYBRAND = DIRECTORY + "keyBrand.xml"
 KEYROOM = DIRECTORY + "keyRoom.xml"
 
 #file io file names
-INPUT = 'hotelCode-GRT-PRT-rooms.xls'
+INPUT = 'hotelCode-GRT-PRT.xls'
 OUTPUT = 'C:\\Users\\gf174cq\\projects\\RHG\\xsd\\keywords.xlsx'
 
 #Global variables
@@ -33,9 +33,11 @@ def indices():
     ISN = headers.index("statename")
     ICN = headers.index("countryname")
     IBD = headers.index("brand")
-    IRD = headers.index("grtdescription")
-    IRC = headers.index("grtcode")
-    return [IHC, IHN, ICI, ICO, IST, ISN, ICN, IBD, IRD, IRC]
+    IGD = headers.index("grtdescription")
+    IGC = headers.index("grtcode")
+    IPD = headers.index("prtdescription")
+    IPC = headers.index("prtcode")
+    return [IHC, IHN, ICI, ICO, IST, ISN, ICN, IBD, IGD, IGC, IPD, IPC]
 
 #index of excel fields:
 I = indices()
@@ -47,8 +49,10 @@ STATE_CODE_INDEX = I[4]
 STATE_NAME_INDEX = I[5]
 COUNTRY_NAME_INDEX = I[6]
 BRAND_INDEX = I[7]
-ROOM_NAME_INDEX = I[8]
-ROOM_CODE_INDEX = I[9]
+GRT_NAME_INDEX = I[8]
+GRT_CODE_INDEX = I[9]
+PRT_NAME_INDEX = I[10]
+PRT_CODE_INDEX = I[11]
 
 class Keyword:
     def __init__(self, v="", d="", k="", a="No", i=0, l=None):
@@ -104,8 +108,8 @@ def genStateNames():
         f.write(SM[code]+'\n')
     f.close()
 
-# genCountryNames()
-# genStateNames()
+#genCountryNames()
+#genStateNames()
 
 #parse the name of the countries, states, and city to have capital first letter and lower case rest for each word
 def parseName(s):
@@ -156,11 +160,15 @@ def load():
     cc = [s.strip() for s in ws.col_values(COUNTRY_CODE_INDEX)[1:]]
     #brand names
     brand = [s.strip() for s in ws.col_values(BRAND_INDEX)[1:]]
-    room = [s.strip() for s in ws.col_values(ROOM_NAME_INDEX)[1:]]
-    for i in range(len(hn)):
-        room[i] = room[i].replace("&", "&amp;")
-    rc = [s.strip() for s in ws.col_values(ROOM_CODE_INDEX)[1:]]
-    pair = dict(zip(["hotelCode", "hotelName", "city", "state", "stateCode", "country", "countryCode", "brand", "room", "roomCode"],[hc, hn, cities, states, sc, countries, cc, brand, room ,rc]))
+    grt = [s.strip() for s in ws.col_values(GRT_NAME_INDEX)[1:]]
+    for i in range(len(grt)):
+        grt[i] = grt[i].replace("&", "&amp;")
+    grtc = [s.strip() for s in ws.col_values(GRT_CODE_INDEX)[1:]]
+    prt = [s.strip() for s in ws.col_values(PRT_NAME_INDEX)[1:]]
+    for i in range(len(prt)):
+        prt[i] = prt[i].replace("&", "&amp;")
+    prtc = [s.strip() for s in ws.col_values(PRT_CODE_INDEX)[1:]]
+    pair = dict(zip(["hotelCode", "hotelName", "city", "state", "stateCode", "country", "countryCode", "brand", "room", "roomCode", "prt", "prtCode"],[hc, hn, cities, states, sc, countries, cc, brand, grt ,grtc, prt, prtc]))
     return pair
 
 
@@ -192,6 +200,8 @@ def genRoomNameTree(data):
     brand = data["brand"]
     rooms = data["room"]
     rc = data["roomCode"]
+    prt = data["prt"]
+    prtc = data["prtCode"]
     tree = []
     #country
     for i in range(len(countries)):
@@ -254,15 +264,41 @@ def genRoomNameTree(data):
             #hotel index
             hi = ind(tree[ci].children[cii].children, hn[i])
             if not exist(tree[ci].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(rooms[i], rooms[i], hc[i] + rc[i], "No", 5)
+                k = Keyword(hc[i] + '-' + rooms[i], rooms[i], hc[i] + '-' + rc[i], "Yes", 5)
                 tree[ci].children[cii].children[hi].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
             hi = ind(tree[ci].children[si].children[cii].children, hn[i])
             if not exist(tree[ci].children[si].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(rooms[i], rooms[i], hc[i] + rc[i], "No", 6)
+                k = Keyword(hc[i] + '-' + rooms[i], rooms[i], hc[i] + '-' + rc[i], "Yes", 6)
                 tree[ci].children[si].children[cii].children[hi].children.append(k)
+
+    for i in range(len(rooms)):
+        #country index
+        ci = ind(tree, countries[i])
+        #value of city
+        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
+        #value of state
+        s = states[i] + ', ' + countries[i]
+        if states[i] == '':
+            #city index
+            cii = ind(tree[ci].children, v)
+            #hotel index
+            hi = ind(tree[ci].children[cii].children, hn[i])
+            #room index
+            ri = ind(tree[ci].children[cii].children[hi].children, hc[i] + '-' + rooms[i])
+            if not exist(tree[ci].children[cii].children[hi].children[ri].children, prt[i]):
+                k = Keyword(hc[i] + '-' + prt[i], prt[i], hc[i] + '-' + prtc[i], "No", 6)
+                tree[ci].children[cii].children[hi].children[ri].children.append(k)
+        else:
+            si = ind(tree[ci].children, s)
+            cii = ind(tree[ci].children[si].children, v)
+            hi = ind(tree[ci].children[si].children[cii].children, hn[i])
+            ri = ind(tree[ci].children[si].children[cii].children[hi].children, hc[i] + '-' + rooms[i])
+            if not exist(tree[ci].children[si].children[cii].children[hi].children[ri].children, prt[i]):
+                k = Keyword(hc[i] + '-' + prt[i], prt[i], hc[i] + '-' + rc[i], "No", 7)
+                tree[ci].children[si].children[cii].children[hi].children[ri].children.append(k)
     return tree
 
 
