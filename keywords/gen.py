@@ -3,6 +3,7 @@ import os
 import xlsxwriter
 from mapping import SM, CM
 import time
+from Keyword import Keyword
 START = time.time()
 
 #keyword xml locations
@@ -15,72 +16,12 @@ KEYBRAND = DIRECTORY + "keyBrand.xml"
 KEYROOM = DIRECTORY + "keyRoom.xml"
 
 #file io file names
-INPUT = 'hotelCode-GRT-PRT.xls'
 OUTPUT = 'C:\\Users\\gf174cq\\projects\\RHG\\xsd\\keywords.xlsx'
 
 #Global variables
 KEYLIST = []
 
-def indices():
-    wb = xlrd.open_workbook(INPUT)
-    ws = wb.sheet_by_index(0)
-    headers = [''.join(s.lower().strip().split(' ')) for s in ws.row_values(0)]
-    IHC = headers.index("hotelcode")
-    IHN = headers.index("hotelname")
-    ICI = headers.index("city")
-    ICO = headers.index("country")
-    IST = headers.index("state")
-    ISN = headers.index("statename")
-    ICN = headers.index("countryname")
-    IBD = headers.index("brand")
-    IGD = headers.index("grtdescription")
-    IGC = headers.index("grtcode")
-    IPD = headers.index("prtdescription")
-    IPC = headers.index("prtcode")
-    return [IHC, IHN, ICI, ICO, IST, ISN, ICN, IBD, IGD, IGC, IPD, IPC]
 
-#index of excel fields:
-I = indices()
-HOTEL_CODE_INDEX = I[0]
-HOTEL_NAME_INDEX = I[1]
-CITY_INDEX = I[2]
-COUNTRY_CODE_INDEX = I[3]
-STATE_CODE_INDEX = I[4]
-STATE_NAME_INDEX = I[5]
-COUNTRY_NAME_INDEX = I[6]
-BRAND_INDEX = I[7]
-GRT_NAME_INDEX = I[8]
-GRT_CODE_INDEX = I[9]
-PRT_NAME_INDEX = I[10]
-PRT_CODE_INDEX = I[11]
-
-class Keyword:
-    def __init__(self, v="", d="", k="", a="No", i=0, l=None):
-        self.value = v
-        self.des = d
-        self.key = k
-        self.abst = a
-        self.indent = i
-        self.children = l if l != None else []
-
-    def __str__(self):
-        beg = ["<Keyword>", "\t<value>" + self.value + "</value>", "\t<description>" + self.des + "</description>", "\t<key>" + self.key + "</key>","\t<isAbstract>"+ self.abst+"</isAbstract>"]
-        end = "</Keyword>"
-        #add indent to the keyword
-        for j in range(self.indent):
-            end = '\t' + end
-            for i in range(len(beg)):
-                beg[i] = '\t' + beg[i]
-        #concatenate the list of beginning fields
-        r = ""
-        for s in beg:
-            r += s + "\n"
-        #add the children keywords
-        for i in range(len(self.children)):
-            r += str(self.children[i])
-        #add footer to finish tag
-        r += end + '\n'
-        return r
 
 
 def genCountryNames():
@@ -108,8 +49,8 @@ def genStateNames():
         f.write(SM[code]+'\n')
     f.close()
 
-#genCountryNames()
-#genStateNames()
+genCountryNames()
+genStateNames()
 
 #parse the name of the countries, states, and city to have capital first letter and lower case rest for each word
 def parseName(s):
@@ -381,7 +322,7 @@ def genHotelNameTree(data):
         if states[i] == '':
             cii = ind(tree[ci].children, v)
             if not exist(tree[ci].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "No", 4)
+                k = Keyword(hn[i], hn[i], hc[i], "No", 4, None, True)
                 tree[ci].children[cii].children.append(k)
                 KEYLIST.append(k)
                 worksheet.write(counter, 4, hn[i])
@@ -390,7 +331,7 @@ def genHotelNameTree(data):
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
             if not exist(tree[ci].children[si].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "No", 5)
+                k = Keyword(hn[i], hn[i], hc[i], "No", 5, None, True)
                 tree[ci].children[si].children[cii].children.append(k)
                 KEYLIST.append(k)
                 worksheet.write(counter, 4, hn[i])

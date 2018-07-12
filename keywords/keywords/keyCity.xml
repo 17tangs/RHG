@@ -1,38 +1,14 @@
 <?xml version="1.0" encoding = "utf-8"?>
 <Category name = "City" xmlName = "City" isPublishable = "Yes">
 	<Keyword>
-		<value>United Arab Emirates</value>
-		<description>United Arab Emirates</description>
-		<key>united-arab-emirates</key>
+		<value>Algeria</value>
+		<description>Algeria</description>
+		<key>algeria</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Abu Dhabi, United Arab Emirates</value>
-				<description>Abu Dhabi</description>
-				<key>abu-dhabi-ae</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Ajman, United Arab Emirates</value>
-				<description>Ajman</description>
-				<key>ajman-ae</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Dubai, United Arab Emirates</value>
-				<description>Dubai</description>
-				<key>dubai-ae</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Fujairah, United Arab Emirates</value>
-				<description>Fujairah</description>
-				<key>fujairah-ae</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Sharjah, United Arab Emirates</value>
-				<description>Sharjah</description>
-				<key>sharjah-ae</key>
+				<value>Algiers, Algeria</value>
+				<description>Algiers</description>
+				<key>algiers-dz</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -45,30 +21,6 @@
 				<value>Yerevan, Armenia</value>
 				<description>Yerevan</description>
 				<key>yerevan-am</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Austria</value>
-		<description>Austria</description>
-		<key>austria</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Linz, Austria</value>
-				<description>Linz</description>
-				<key>linz-at</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Salzburg, Austria</value>
-				<description>Salzburg</description>
-				<key>salzburg-at</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Vienna, Austria</value>
-				<description>Vienna</description>
-				<key>vienna-at</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -103,6 +55,30 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Austria</value>
+		<description>Austria</description>
+		<key>austria</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Linz, Austria</value>
+				<description>Linz</description>
+				<key>linz-at</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Salzburg, Austria</value>
+				<description>Salzburg</description>
+				<key>salzburg-at</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Vienna, Austria</value>
+				<description>Vienna</description>
+				<key>vienna-at</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Azerbaijan</value>
 		<description>Azerbaijan</description>
 		<key>azerbaijan</key>
@@ -115,14 +91,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Barbados</value>
-		<description>Barbados</description>
-		<key>barbados</key>
+		<value>Bahrain</value>
+		<description>Bahrain</description>
+		<key>bahrain</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>St Michael, Barbados</value>
-				<description>St Michael</description>
-				<key>st-michael-bb</key>
+				<value>Manama, Bahrain</value>
+				<description>Manama</description>
+				<key>manama-bh</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -141,6 +117,18 @@
 				<value>Dhaka, Bangladesh</value>
 				<description>Dhaka</description>
 				<key>dhaka-bd</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Barbados</value>
+		<description>Barbados</description>
+		<key>barbados</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>St Michael, Barbados</value>
+				<description>St Michael</description>
+				<key>st-michael-bb</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -199,26 +187,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Bahrain</value>
-		<description>Bahrain</description>
-		<key>bahrain</key>
+		<value>Belize</value>
+		<description>Belize</description>
+		<key>belize</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Manama, Bahrain</value>
-				<description>Manama</description>
-				<key>manama-bh</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Brunei</value>
-		<description>Brunei</description>
-		<key>brunei</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Bandar Seri Begawan, Brunei</value>
-				<description>Bandar Seri Begawan</description>
-				<key>bandar-seri-begawan-bn</key>
+				<value>Belize City, Belize</value>
+				<description>Belize City</description>
+				<key>belize-city-bz</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -337,14 +313,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Belize</value>
-		<description>Belize</description>
-		<key>belize</key>
+		<value>Brunei</value>
+		<description>Brunei</description>
+		<key>brunei</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Belize City, Belize</value>
-				<description>Belize City</description>
-				<key>belize-city-bz</key>
+				<value>Bandar Seri Begawan, Brunei</value>
+				<description>Bandar Seri Begawan</description>
+				<key>bandar-seri-begawan-bn</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -511,68 +487,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Congo-brazzv</value>
-		<description>Congo-brazzv</description>
-		<key>congo-brazzv</key>
+		<value>Chad</value>
+		<description>Chad</description>
+		<key>chad</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Brazzaville, Congo-brazzv</value>
-				<description>Brazzaville</description>
-				<key>brazzaville-cg</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Switzerland</value>
-		<description>Switzerland</description>
-		<key>switzerland</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Basel, Switzerland</value>
-				<description>Basel</description>
-				<key>basel-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Lucerne, Switzerland</value>
-				<description>Lucerne</description>
-				<key>lucerne-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Lully, Switzerland</value>
-				<description>Lully</description>
-				<key>lully-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Rumlang, Switzerland</value>
-				<description>Rumlang</description>
-				<key>rumlang-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>St Gallen, Switzerland</value>
-				<description>St Gallen</description>
-				<key>st-gallen-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Zuerich Flughafen, Switzerland</value>
-				<description>Zuerich Flughafen</description>
-				<key>zuerich-flughafen-ch</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Cote D'ivoire</value>
-		<description>Cote D'ivoire</description>
-		<key>cote-divoire</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Abidjan, Cote D'ivoire</value>
-				<description>Abidjan</description>
-				<key>abidjan-ci</key>
+				<value>N'djamena, Chad</value>
+				<description>N'djamena</description>
+				<key>ndjamena-td</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -703,6 +625,18 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Congo-brazzv</value>
+		<description>Congo-brazzv</description>
+		<key>congo-brazzv</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Brazzaville, Congo-brazzv</value>
+				<description>Brazzaville</description>
+				<key>brazzaville-cg</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Costa Rica</value>
 		<description>Costa Rica</description>
 		<key>costa-rica</key>
@@ -717,6 +651,42 @@
 				<value>San Jose Heredia, Costa Rica</value>
 				<description>San Jose Heredia</description>
 				<key>san-jose-heredia-cr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Cote D'ivoire</value>
+		<description>Cote D'ivoire</description>
+		<key>cote-divoire</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Abidjan, Cote D'ivoire</value>
+				<description>Abidjan</description>
+				<key>abidjan-ci</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Croatia</value>
+		<description>Croatia</description>
+		<key>croatia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Medulin, Croatia</value>
+				<description>Medulin</description>
+				<key>medulin-hr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Pula, Croatia</value>
+				<description>Pula</description>
+				<key>pula-hr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Split, Croatia</value>
+				<description>Split</description>
+				<key>split-hr</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -747,6 +717,270 @@
 				<value>Prague, Czech Rep</value>
 				<description>Prague</description>
 				<key>prague-cz</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Denmark</value>
+		<description>Denmark</description>
+		<key>denmark</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Aalborg, Denmark</value>
+				<description>Aalborg</description>
+				<key>aalborg-dk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Aarhus, Denmark</value>
+				<description>Aarhus</description>
+				<key>aarhus-dk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Copenhagen, Denmark</value>
+				<description>Copenhagen</description>
+				<key>copenhagen-dk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Odense, Denmark</value>
+				<description>Odense</description>
+				<key>odense-dk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Silkeborg, Denmark</value>
+				<description>Silkeborg</description>
+				<key>silkeborg-dk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Dominican Rep</value>
+		<description>Dominican Rep</description>
+		<key>dominican-rep</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Santo Domingo, Dominican Rep</value>
+				<description>Santo Domingo</description>
+				<key>santo-domingo-do</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Ecuador</value>
+		<description>Ecuador</description>
+		<key>ecuador</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Guayaquil, Ecuador</value>
+				<description>Guayaquil</description>
+				<key>guayaquil-ec</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Egypt</value>
+		<description>Egypt</description>
+		<key>egypt</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Alexandria, Egypt</value>
+				<description>Alexandria</description>
+				<key>alexandria-eg</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Cairo, Egypt</value>
+				<description>Cairo</description>
+				<key>cairo-eg</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>El Quseir, Egypt</value>
+				<description>El Quseir</description>
+				<key>el-quseir-eg</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Estonia</value>
+		<description>Estonia</description>
+		<key>estonia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Tallinn, Estonia</value>
+				<description>Tallinn</description>
+				<key>tallinn-ee</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Ethiopia</value>
+		<description>Ethiopia</description>
+		<key>ethiopia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Addis Ababa, Ethiopia</value>
+				<description>Addis Ababa</description>
+				<key>addis-ababa-et</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Fiji Islands</value>
+		<description>Fiji Islands</description>
+		<key>fiji-islands</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Denarau Island, Fiji Islands</value>
+				<description>Denarau Island</description>
+				<key>denarau-island-fj</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Finland</value>
+		<description>Finland</description>
+		<key>finland</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Espoo, Finland</value>
+				<description>Espoo</description>
+				<key>espoo-fi</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Helsinki, Finland</value>
+				<description>Helsinki</description>
+				<key>helsinki-fi</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Oulu, Finland</value>
+				<description>Oulu</description>
+				<key>oulu-fi</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Tampere, Finland</value>
+				<description>Tampere</description>
+				<key>tampere-fi</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Turku, Finland</value>
+				<description>Turku</description>
+				<key>turku-fi</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>France</value>
+		<description>France</description>
+		<key>france</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Biarritz, France</value>
+				<description>Biarritz</description>
+				<key>biarritz-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Blagnac, France</value>
+				<description>Blagnac</description>
+				<key>blagnac-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Cannes, France</value>
+				<description>Cannes</description>
+				<key>cannes-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Les Arcs, France</value>
+				<description>Les Arcs</description>
+				<key>les-arcs-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Lyon, France</value>
+				<description>Lyon</description>
+				<key>lyon-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Magny Le Hongre, France</value>
+				<description>Magny Le Hongre</description>
+				<key>magny-le-hongre-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Marseille, France</value>
+				<description>Marseille</description>
+				<key>marseille-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Nantes, France</value>
+				<description>Nantes</description>
+				<key>nantes-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Nice, France</value>
+				<description>Nice</description>
+				<key>nice-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Paris, France</value>
+				<description>Paris</description>
+				<key>paris-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Porticcio - Corsica, France</value>
+				<description>Porticcio - Corsica</description>
+				<key>porticcio---corsica-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Villeneuve D Ascq, France</value>
+				<description>Villeneuve D Ascq</description>
+				<key>villeneuve-d-ascq-fr</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Gabon</value>
+		<description>Gabon</description>
+		<key>gabon</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Libreville, Gabon</value>
+				<description>Libreville</description>
+				<key>libreville-ga</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Georgia</value>
+		<description>Georgia</description>
+		<key>georgia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Batumi, Georgia</value>
+				<description>Batumi</description>
+				<key>batumi-ge</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Tbilisi, Georgia</value>
+				<description>Tbilisi</description>
+				<key>tbilisi-ge</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -943,480 +1177,6 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Denmark</value>
-		<description>Denmark</description>
-		<key>denmark</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Aalborg, Denmark</value>
-				<description>Aalborg</description>
-				<key>aalborg-dk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Aarhus, Denmark</value>
-				<description>Aarhus</description>
-				<key>aarhus-dk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Copenhagen, Denmark</value>
-				<description>Copenhagen</description>
-				<key>copenhagen-dk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Odense, Denmark</value>
-				<description>Odense</description>
-				<key>odense-dk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Silkeborg, Denmark</value>
-				<description>Silkeborg</description>
-				<key>silkeborg-dk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Dominican Rep</value>
-		<description>Dominican Rep</description>
-		<key>dominican-rep</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Santo Domingo, Dominican Rep</value>
-				<description>Santo Domingo</description>
-				<key>santo-domingo-do</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Algeria</value>
-		<description>Algeria</description>
-		<key>algeria</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Algiers, Algeria</value>
-				<description>Algiers</description>
-				<key>algiers-dz</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Ecuador</value>
-		<description>Ecuador</description>
-		<key>ecuador</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Guayaquil, Ecuador</value>
-				<description>Guayaquil</description>
-				<key>guayaquil-ec</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Estonia</value>
-		<description>Estonia</description>
-		<key>estonia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Tallinn, Estonia</value>
-				<description>Tallinn</description>
-				<key>tallinn-ee</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Egypt</value>
-		<description>Egypt</description>
-		<key>egypt</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Alexandria, Egypt</value>
-				<description>Alexandria</description>
-				<key>alexandria-eg</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Cairo, Egypt</value>
-				<description>Cairo</description>
-				<key>cairo-eg</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>El Quseir, Egypt</value>
-				<description>El Quseir</description>
-				<key>el-quseir-eg</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Spain</value>
-		<description>Spain</description>
-		<key>spain</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Gran Canaria, Spain</value>
-				<description>Gran Canaria</description>
-				<key>gran-canaria-es</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Gran Canaria Mogan, Spain</value>
-				<description>Gran Canaria Mogan</description>
-				<key>gran-canaria-mogan-es</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Madrid, Spain</value>
-				<description>Madrid</description>
-				<key>madrid-es</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Ethiopia</value>
-		<description>Ethiopia</description>
-		<key>ethiopia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Addis Ababa, Ethiopia</value>
-				<description>Addis Ababa</description>
-				<key>addis-ababa-et</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Finland</value>
-		<description>Finland</description>
-		<key>finland</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Espoo, Finland</value>
-				<description>Espoo</description>
-				<key>espoo-fi</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Helsinki, Finland</value>
-				<description>Helsinki</description>
-				<key>helsinki-fi</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Oulu, Finland</value>
-				<description>Oulu</description>
-				<key>oulu-fi</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Tampere, Finland</value>
-				<description>Tampere</description>
-				<key>tampere-fi</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Turku, Finland</value>
-				<description>Turku</description>
-				<key>turku-fi</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Fiji Islands</value>
-		<description>Fiji Islands</description>
-		<key>fiji-islands</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Denarau Island, Fiji Islands</value>
-				<description>Denarau Island</description>
-				<key>denarau-island-fj</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>France</value>
-		<description>France</description>
-		<key>france</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Biarritz, France</value>
-				<description>Biarritz</description>
-				<key>biarritz-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Blagnac, France</value>
-				<description>Blagnac</description>
-				<key>blagnac-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Cannes, France</value>
-				<description>Cannes</description>
-				<key>cannes-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Les Arcs, France</value>
-				<description>Les Arcs</description>
-				<key>les-arcs-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Lyon, France</value>
-				<description>Lyon</description>
-				<key>lyon-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Magny Le Hongre, France</value>
-				<description>Magny Le Hongre</description>
-				<key>magny-le-hongre-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Marseille, France</value>
-				<description>Marseille</description>
-				<key>marseille-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Nantes, France</value>
-				<description>Nantes</description>
-				<key>nantes-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Nice, France</value>
-				<description>Nice</description>
-				<key>nice-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Paris, France</value>
-				<description>Paris</description>
-				<key>paris-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Porticcio - Corsica, France</value>
-				<description>Porticcio - Corsica</description>
-				<key>porticcio---corsica-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Villeneuve D Ascq, France</value>
-				<description>Villeneuve D Ascq</description>
-				<key>villeneuve-d-ascq-fr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Gabon</value>
-		<description>Gabon</description>
-		<key>gabon</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Libreville, Gabon</value>
-				<description>Libreville</description>
-				<key>libreville-ga</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>United Kingdom</value>
-		<description>United Kingdom</description>
-		<key>united-kingdom</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Aberdeen, United Kingdom</value>
-				<description>Aberdeen</description>
-				<key>aberdeen-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Bedford, United Kingdom</value>
-				<description>Bedford</description>
-				<key>bedford-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Belfast, United Kingdom</value>
-				<description>Belfast</description>
-				<key>belfast-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Birmingham, United Kingdom</value>
-				<description>Birmingham</description>
-				<key>birmingham-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Bristol, United Kingdom</value>
-				<description>Bristol</description>
-				<key>bristol-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Cardiff, United Kingdom</value>
-				<description>Cardiff</description>
-				<key>cardiff-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Durham, United Kingdom</value>
-				<description>Durham</description>
-				<key>durham-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>East Midlands, United Kingdom</value>
-				<description>East Midlands</description>
-				<key>east-midlands-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Edinburgh, United Kingdom</value>
-				<description>Edinburgh</description>
-				<key>edinburgh-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Glasgow, United Kingdom</value>
-				<description>Glasgow</description>
-				<key>glasgow-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Harlow, United Kingdom</value>
-				<description>Harlow</description>
-				<key>harlow-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Leeds, United Kingdom</value>
-				<description>Leeds</description>
-				<key>leeds-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Leeds West Yorkshire, United Kingdom</value>
-				<description>Leeds West Yorkshire</description>
-				<key>leeds-west-yorkshire-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Liverpool, United Kingdom</value>
-				<description>Liverpool</description>
-				<key>liverpool-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>London, United Kingdom</value>
-				<description>London</description>
-				<key>london-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>London Heathrow, United Kingdom</value>
-				<description>London Heathrow</description>
-				<key>london-heathrow-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Manchester, United Kingdom</value>
-				<description>Manchester</description>
-				<key>manchester-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Northampton, United Kingdom</value>
-				<description>Northampton</description>
-				<key>northampton-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Nottingham, United Kingdom</value>
-				<description>Nottingham</description>
-				<key>nottingham-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Peterborough, United Kingdom</value>
-				<description>Peterborough</description>
-				<key>peterborough-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Southend-on-sea, United Kingdom</value>
-				<description>Southend-on-sea</description>
-				<key>southend-on-sea-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Stansted, United Kingdom</value>
-				<description>Stansted</description>
-				<key>stansted-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Telford, United Kingdom</value>
-				<description>Telford</description>
-				<key>telford-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Walsall, United Kingdom</value>
-				<description>Walsall</description>
-				<key>walsall-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>West Bromwich, United Kingdom</value>
-				<description>West Bromwich</description>
-				<key>west-bromwich-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>York, United Kingdom</value>
-				<description>York</description>
-				<key>york-gb</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Grenada</value>
-		<description>Grenada</description>
-		<key>grenada</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>St George's, Grenada</value>
-				<description>St George's</description>
-				<key>st-georges-gd</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Georgia</value>
-		<description>Georgia</description>
-		<key>georgia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Batumi, Georgia</value>
-				<description>Batumi</description>
-				<key>batumi-ge</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Tbilisi, Georgia</value>
-				<description>Tbilisi</description>
-				<key>tbilisi-ge</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
 		<value>Greece</value>
 		<description>Greece</description>
 		<key>greece</key>
@@ -1435,6 +1195,18 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Grenada</value>
+		<description>Grenada</description>
+		<key>grenada</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>St George's, Grenada</value>
+				<description>St George's</description>
+				<key>st-georges-gd</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Guatemala</value>
 		<description>Guatemala</description>
 		<key>guatemala</key>
@@ -1443,30 +1215,6 @@
 				<value>Guatemala City, Guatemala</value>
 				<description>Guatemala City</description>
 				<key>guatemala-city-gt</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Croatia</value>
-		<description>Croatia</description>
-		<key>croatia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Medulin, Croatia</value>
-				<description>Medulin</description>
-				<key>medulin-hr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Pula, Croatia</value>
-				<description>Pula</description>
-				<key>pula-hr</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Split, Croatia</value>
-				<description>Split</description>
-				<key>split-hr</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -1495,92 +1243,20 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Indonesia</value>
-		<description>Indonesia</description>
-		<key>indonesia</key>
+		<value>Iceland</value>
+		<description>Iceland</description>
+		<key>iceland</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Riau, Indonesia</value>
-				<description>Riau</description>
-				<key>riau-id</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Batam, Riau, Indonesia</value>
-					<description>Batam</description>
-					<key>batam-ri-id</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
-				<value>Sumatera Utara, Indonesia</value>
-				<description>Sumatera Utara</description>
-				<key>sumatera-utara-id</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Medan, Sumatera Utara, Indonesia</value>
-					<description>Medan</description>
-					<key>medan-su-id</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
-				<value>Bali, Indonesia</value>
-				<description>Bali</description>
-				<key>bali-id</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Ireland</value>
-		<description>Ireland</description>
-		<key>ireland</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Athlone, Ireland</value>
-				<description>Athlone</description>
-				<key>athlone-ie</key>
+				<value>Keflavik, Iceland</value>
+				<description>Keflavik</description>
+				<key>keflavik-is</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Cork, Ireland</value>
-				<description>Cork</description>
-				<key>cork-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Dublin, Ireland</value>
-				<description>Dublin</description>
-				<key>dublin-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Dublin 8, Ireland</value>
-				<description>Dublin 8</description>
-				<key>dublin-8-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Letterkenny, Ireland</value>
-				<description>Letterkenny</description>
-				<key>letterkenny-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Limerick, Ireland</value>
-				<description>Limerick</description>
-				<key>limerick-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Shannon Co Clare, Ireland</value>
-				<description>Shannon Co Clare</description>
-				<key>shannon-co-clare-ie</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Sligo, Ireland</value>
-				<description>Sligo</description>
-				<key>sligo-ie</key>
+				<value>Reykjavik, Iceland</value>
+				<description>Reykjavik</description>
+				<key>reykjavik-is</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -1680,6 +1356,18 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
+				<value>Madhya Pradesh, India</value>
+				<description>Madhya Pradesh</description>
+				<key>madhya-pradesh-in</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Gwalior, Madhya Pradesh, India</value>
+					<description>Gwalior</description>
+					<key>gwalior-mp-in</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
 				<value>Maharashtra, India</value>
 				<description>Maharashtra</description>
 				<key>maharashtra-in</key>
@@ -1700,18 +1388,6 @@
 					<value>Mumbai, Maharashtra, India</value>
 					<description>Mumbai</description>
 					<key>mumbai-mh-in</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
-				<value>Madhya Pradesh, India</value>
-				<description>Madhya Pradesh</description>
-				<key>madhya-pradesh-in</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Gwalior, Madhya Pradesh, India</value>
-					<description>Gwalior</description>
-					<key>gwalior-mp-in</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -2023,20 +1699,92 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Iceland</value>
-		<description>Iceland</description>
-		<key>iceland</key>
+		<value>Indonesia</value>
+		<description>Indonesia</description>
+		<key>indonesia</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Keflavik, Iceland</value>
-				<description>Keflavik</description>
-				<key>keflavik-is</key>
+				<value>Riau, Indonesia</value>
+				<description>Riau</description>
+				<key>riau-id</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Batam, Riau, Indonesia</value>
+					<description>Batam</description>
+					<key>batam-ri-id</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>Sumatera Utara, Indonesia</value>
+				<description>Sumatera Utara</description>
+				<key>sumatera-utara-id</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Medan, Sumatera Utara, Indonesia</value>
+					<description>Medan</description>
+					<key>medan-su-id</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>Bali, Indonesia</value>
+				<description>Bali</description>
+				<key>bali-id</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Ireland</value>
+		<description>Ireland</description>
+		<key>ireland</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Athlone, Ireland</value>
+				<description>Athlone</description>
+				<key>athlone-ie</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Reykjavik, Iceland</value>
-				<description>Reykjavik</description>
-				<key>reykjavik-is</key>
+				<value>Cork, Ireland</value>
+				<description>Cork</description>
+				<key>cork-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Dublin, Ireland</value>
+				<description>Dublin</description>
+				<key>dublin-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Dublin 8, Ireland</value>
+				<description>Dublin 8</description>
+				<key>dublin-8-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Letterkenny, Ireland</value>
+				<description>Letterkenny</description>
+				<key>letterkenny-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Limerick, Ireland</value>
+				<description>Limerick</description>
+				<key>limerick-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Shannon Co Clare, Ireland</value>
+				<description>Shannon Co Clare</description>
+				<key>shannon-co-clare-ie</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sligo, Ireland</value>
+				<description>Sligo</description>
+				<key>sligo-ie</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2065,6 +1813,18 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Japan</value>
+		<description>Japan</description>
+		<key>japan</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Narita, Japan</value>
+				<description>Narita</description>
+				<key>narita-jp</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Jersey</value>
 		<description>Jersey</description>
 		<key>jersey</key>
@@ -2077,14 +1837,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Japan</value>
-		<description>Japan</description>
-		<key>japan</key>
+		<value>Kazakhstan</value>
+		<description>Kazakhstan</description>
+		<key>kazakhstan</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Narita, Japan</value>
-				<description>Narita</description>
-				<key>narita-jp</key>
+				<value>Astana, Kazakhstan</value>
+				<description>Astana</description>
+				<key>astana-kz</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2125,14 +1885,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Kazakhstan</value>
-		<description>Kazakhstan</description>
-		<key>kazakhstan</key>
+		<value>Latvia</value>
+		<description>Latvia</description>
+		<key>latvia</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Astana, Kazakhstan</value>
-				<description>Astana</description>
-				<key>astana-kz</key>
+				<value>Riga, Latvia</value>
+				<description>Riga</description>
+				<key>riga-lv</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2145,6 +1905,18 @@
 				<value>Beirut, Lebanon</value>
 				<description>Beirut</description>
 				<key>beirut-lb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Libyan Arab Jamahiriya</value>
+		<description>Libyan Arab Jamahiriya</description>
+		<key>libyan-arab-jamahiriya</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Tripoli, Libyan Arab Jamahiriya</value>
+				<description>Tripoli</description>
+				<key>tripoli-ly</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2181,54 +1953,6 @@
 				<value>Luxembourg, Luxembourg</value>
 				<description>Luxembourg</description>
 				<key>luxembourg-lu</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Latvia</value>
-		<description>Latvia</description>
-		<key>latvia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Riga, Latvia</value>
-				<description>Riga</description>
-				<key>riga-lv</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Libyan Arab Jamahiriya</value>
-		<description>Libyan Arab Jamahiriya</description>
-		<key>libyan-arab-jamahiriya</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Tripoli, Libyan Arab Jamahiriya</value>
-				<description>Tripoli</description>
-				<key>tripoli-ly</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Morocco</value>
-		<description>Morocco</description>
-		<key>morocco</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Marrakech, Morocco</value>
-				<description>Marrakech</description>
-				<key>marrakech-ma</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Moldova</value>
-		<description>Moldova</description>
-		<key>moldova</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Chisinau, Moldova</value>
-				<description>Chisinau</description>
-				<key>chisinau-md</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2298,18 +2022,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>Morelos, Mexico</value>
-				<description>Morelos</description>
-				<key>morelos-mx</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Tezoyuca Cuernavaca, Morelos, Mexico</value>
-					<description>Tezoyuca Cuernavaca</description>
-					<key>tezoyuca-cuernavaca-mo-mx</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Mexico, Mexico</value>
 				<description>Mexico</description>
 				<key>mexico-mx</key>
@@ -2324,6 +2036,18 @@
 					<value>Toluca, Mexico, Mexico</value>
 					<description>Toluca</description>
 					<key>toluca-mx-mx</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>Morelos, Mexico</value>
+				<description>Morelos</description>
+				<key>morelos-mx</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Tezoyuca Cuernavaca, Morelos, Mexico</value>
+					<description>Tezoyuca Cuernavaca</description>
+					<key>tezoyuca-cuernavaca-mo-mx</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -2353,6 +2077,30 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Moldova</value>
+		<description>Moldova</description>
+		<key>moldova</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Chisinau, Moldova</value>
+				<description>Chisinau</description>
+				<key>chisinau-md</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Morocco</value>
+		<description>Morocco</description>
+		<key>morocco</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Marrakech, Morocco</value>
+				<description>Marrakech</description>
+				<key>marrakech-ma</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Mozambique</value>
 		<description>Mozambique</description>
 		<key>mozambique</key>
@@ -2365,20 +2113,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Nigeria</value>
-		<description>Nigeria</description>
-		<key>nigeria</key>
+		<value>Nepal</value>
+		<description>Nepal</description>
+		<key>nepal</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Abeokuta, Nigeria</value>
-				<description>Abeokuta</description>
-				<key>abeokuta-ng</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Lagos, Nigeria</value>
-				<description>Lagos</description>
-				<key>lagos-ng</key>
+				<value>Kathmandu, Nepal</value>
+				<description>Kathmandu</description>
+				<key>kathmandu-np</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2427,6 +2169,24 @@
 				<value>Utrecht, Netherlands</value>
 				<description>Utrecht</description>
 				<key>utrecht-nl</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Nigeria</value>
+		<description>Nigeria</description>
+		<key>nigeria</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Abeokuta, Nigeria</value>
+				<description>Abeokuta</description>
+				<key>abeokuta-ng</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Lagos, Nigeria</value>
+				<description>Lagos</description>
+				<key>lagos-ng</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2535,18 +2295,6 @@
 				<value>Trysil, Norway</value>
 				<description>Trysil</description>
 				<key>trysil-no</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Nepal</value>
-		<description>Nepal</description>
-		<key>nepal</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Kathmandu, Nepal</value>
-				<description>Kathmandu</description>
-				<key>kathmandu-np</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2733,18 +2481,6 @@
 				<value>Bucharest, Romania</value>
 				<description>Bucharest</description>
 				<key>bucharest-ro</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Serbia</value>
-		<description>Serbia</description>
-		<key>serbia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Belgrade, Serbia</value>
-				<description>Belgrade</description>
-				<key>belgrade-rs</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -2953,6 +2689,132 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Senegal</value>
+		<description>Senegal</description>
+		<key>senegal</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Diamniadio, Senegal</value>
+				<description>Diamniadio</description>
+				<key>diamniadio-sn</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Ouest Dakar Fann, Senegal</value>
+				<description>Ouest Dakar Fann</description>
+				<key>ouest-dakar-fann-sn</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Serbia</value>
+		<description>Serbia</description>
+		<key>serbia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Belgrade, Serbia</value>
+				<description>Belgrade</description>
+				<key>belgrade-rs</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Sierra Leone</value>
+		<description>Sierra Leone</description>
+		<key>sierra-leone</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Aberdeen Freetown, Sierra Leone</value>
+				<description>Aberdeen Freetown</description>
+				<key>aberdeen-freetown-sl</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Slovakia</value>
+		<description>Slovakia</description>
+		<key>slovakia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Bratislava, Slovakia</value>
+				<description>Bratislava</description>
+				<key>bratislava-sk</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Slovenia</value>
+		<description>Slovenia</description>
+		<key>slovenia</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Ljubljana, Slovenia</value>
+				<description>Ljubljana</description>
+				<key>ljubljana-si</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>South Africa</value>
+		<description>South Africa</description>
+		<key>south-africa</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Cape Town, South Africa</value>
+				<description>Cape Town</description>
+				<key>cape-town-za</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Capetown, South Africa</value>
+				<description>Capetown</description>
+				<key>capetown-za</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Johannesburg, South Africa</value>
+				<description>Johannesburg</description>
+				<key>johannesburg-za</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Polokwane, South Africa</value>
+				<description>Polokwane</description>
+				<key>polokwane-za</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Port Elizabeth, South Africa</value>
+				<description>Port Elizabeth</description>
+				<key>port-elizabeth-za</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Spain</value>
+		<description>Spain</description>
+		<key>spain</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Gran Canaria, Spain</value>
+				<description>Gran Canaria</description>
+				<key>gran-canaria-es</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Gran Canaria Mogan, Spain</value>
+				<description>Gran Canaria Mogan</description>
+				<key>gran-canaria-mogan-es</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Madrid, Spain</value>
+				<description>Madrid</description>
+				<key>madrid-es</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
 		<value>Sweden</value>
 		<description>Sweden</description>
 		<key>sweden</key>
@@ -3007,68 +2869,44 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Slovenia</value>
-		<description>Slovenia</description>
-		<key>slovenia</key>
+		<value>Switzerland</value>
+		<description>Switzerland</description>
+		<key>switzerland</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Ljubljana, Slovenia</value>
-				<description>Ljubljana</description>
-				<key>ljubljana-si</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Slovakia</value>
-		<description>Slovakia</description>
-		<key>slovakia</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Bratislava, Slovakia</value>
-				<description>Bratislava</description>
-				<key>bratislava-sk</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Sierra Leone</value>
-		<description>Sierra Leone</description>
-		<key>sierra-leone</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Aberdeen Freetown, Sierra Leone</value>
-				<description>Aberdeen Freetown</description>
-				<key>aberdeen-freetown-sl</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Senegal</value>
-		<description>Senegal</description>
-		<key>senegal</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Diamniadio, Senegal</value>
-				<description>Diamniadio</description>
-				<key>diamniadio-sn</key>
+				<value>Basel, Switzerland</value>
+				<description>Basel</description>
+				<key>basel-ch</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Ouest Dakar Fann, Senegal</value>
-				<description>Ouest Dakar Fann</description>
-				<key>ouest-dakar-fann-sn</key>
+				<value>Lucerne, Switzerland</value>
+				<description>Lucerne</description>
+				<key>lucerne-ch</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Chad</value>
-		<description>Chad</description>
-		<key>chad</key>
-		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>N'djamena, Chad</value>
-				<description>N'djamena</description>
-				<key>ndjamena-td</key>
+				<value>Lully, Switzerland</value>
+				<description>Lully</description>
+				<key>lully-ch</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Rumlang, Switzerland</value>
+				<description>Rumlang</description>
+				<key>rumlang-ch</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>St Gallen, Switzerland</value>
+				<description>St Gallen</description>
+				<key>st-gallen-ch</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Zuerich Flughafen, Switzerland</value>
+				<description>Zuerich Flughafen</description>
+				<key>zuerich-flughafen-ch</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -3081,6 +2919,18 @@
 				<value>Bangkok, Thailand</value>
 				<description>Bangkok</description>
 				<key>bangkok-th</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Trinidad And Tobago</value>
+		<description>Trinidad And Tobago</description>
+		<key>trinidad-and-tobago</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Port Of Spain, Trinidad And Tobago</value>
+				<description>Port Of Spain</description>
+				<key>port-of-spain-tt</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -3169,14 +3019,14 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Trinidad And Tobago</value>
-		<description>Trinidad And Tobago</description>
-		<key>trinidad-and-tobago</key>
+		<value>Uganda</value>
+		<description>Uganda</description>
+		<key>uganda</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Port Of Spain, Trinidad And Tobago</value>
-				<description>Port Of Spain</description>
-				<key>port-of-spain-tt</key>
+				<value>Kampala, Uganda</value>
+				<description>Kampala</description>
+				<key>kampala-ug</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -3205,14 +3055,200 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Uganda</value>
-		<description>Uganda</description>
-		<key>uganda</key>
+		<value>United Arab Emirates</value>
+		<description>United Arab Emirates</description>
+		<key>united-arab-emirates</key>
 		<isAbstract>Yes</isAbstract>
 			<Keyword>
-				<value>Kampala, Uganda</value>
-				<description>Kampala</description>
-				<key>kampala-ug</key>
+				<value>Abu Dhabi, United Arab Emirates</value>
+				<description>Abu Dhabi</description>
+				<key>abu-dhabi-ae</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Ajman, United Arab Emirates</value>
+				<description>Ajman</description>
+				<key>ajman-ae</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Dubai, United Arab Emirates</value>
+				<description>Dubai</description>
+				<key>dubai-ae</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Fujairah, United Arab Emirates</value>
+				<description>Fujairah</description>
+				<key>fujairah-ae</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sharjah, United Arab Emirates</value>
+				<description>Sharjah</description>
+				<key>sharjah-ae</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>United Kingdom</value>
+		<description>United Kingdom</description>
+		<key>united-kingdom</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Aberdeen, United Kingdom</value>
+				<description>Aberdeen</description>
+				<key>aberdeen-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Bedford, United Kingdom</value>
+				<description>Bedford</description>
+				<key>bedford-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Belfast, United Kingdom</value>
+				<description>Belfast</description>
+				<key>belfast-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Birmingham, United Kingdom</value>
+				<description>Birmingham</description>
+				<key>birmingham-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Bristol, United Kingdom</value>
+				<description>Bristol</description>
+				<key>bristol-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Cardiff, United Kingdom</value>
+				<description>Cardiff</description>
+				<key>cardiff-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Durham, United Kingdom</value>
+				<description>Durham</description>
+				<key>durham-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>East Midlands, United Kingdom</value>
+				<description>East Midlands</description>
+				<key>east-midlands-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Edinburgh, United Kingdom</value>
+				<description>Edinburgh</description>
+				<key>edinburgh-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Glasgow, United Kingdom</value>
+				<description>Glasgow</description>
+				<key>glasgow-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Harlow, United Kingdom</value>
+				<description>Harlow</description>
+				<key>harlow-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Leeds, United Kingdom</value>
+				<description>Leeds</description>
+				<key>leeds-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Leeds West Yorkshire, United Kingdom</value>
+				<description>Leeds West Yorkshire</description>
+				<key>leeds-west-yorkshire-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Liverpool, United Kingdom</value>
+				<description>Liverpool</description>
+				<key>liverpool-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>London, United Kingdom</value>
+				<description>London</description>
+				<key>london-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>London Heathrow, United Kingdom</value>
+				<description>London Heathrow</description>
+				<key>london-heathrow-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Manchester, United Kingdom</value>
+				<description>Manchester</description>
+				<key>manchester-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Northampton, United Kingdom</value>
+				<description>Northampton</description>
+				<key>northampton-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Nottingham, United Kingdom</value>
+				<description>Nottingham</description>
+				<key>nottingham-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Peterborough, United Kingdom</value>
+				<description>Peterborough</description>
+				<key>peterborough-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Southend-on-sea, United Kingdom</value>
+				<description>Southend-on-sea</description>
+				<key>southend-on-sea-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Stansted, United Kingdom</value>
+				<description>Stansted</description>
+				<key>stansted-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Telford, United Kingdom</value>
+				<description>Telford</description>
+				<key>telford-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Walsall, United Kingdom</value>
+				<description>Walsall</description>
+				<key>walsall-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>West Bromwich, United Kingdom</value>
+				<description>West Bromwich</description>
+				<key>west-bromwich-gb</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>York, United Kingdom</value>
+				<description>York</description>
+				<key>york-gb</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>
@@ -3288,42 +3324,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>Arkansas, United States</value>
-				<description>Arkansas</description>
-				<key>arkansas-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Bryant, Arkansas, United States</value>
-					<description>Bryant</description>
-					<key>bryant-ar-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Conway, Arkansas, United States</value>
-					<description>Conway</description>
-					<key>conway-ar-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>El Dorado, Arkansas, United States</value>
-					<description>El Dorado</description>
-					<key>el-dorado-ar-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Hot Springs, Arkansas, United States</value>
-					<description>Hot Springs</description>
-					<key>hot-springs-ar-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Rogers, Arkansas, United States</value>
-					<description>Rogers</description>
-					<key>rogers-ar-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Arizona, United States</value>
 				<description>Arizona</description>
 				<key>arizona-us</key>
@@ -3362,6 +3362,42 @@
 					<value>Yuma, Arizona, United States</value>
 					<description>Yuma</description>
 					<key>yuma-az-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>Arkansas, United States</value>
+				<description>Arkansas</description>
+				<key>arkansas-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Bryant, Arkansas, United States</value>
+					<description>Bryant</description>
+					<key>bryant-ar-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Conway, Arkansas, United States</value>
+					<description>Conway</description>
+					<key>conway-ar-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>El Dorado, Arkansas, United States</value>
+					<description>El Dorado</description>
+					<key>el-dorado-ar-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Hot Springs, Arkansas, United States</value>
+					<description>Hot Springs</description>
+					<key>hot-springs-ar-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Rogers, Arkansas, United States</value>
+					<description>Rogers</description>
+					<key>rogers-ar-us</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -3894,126 +3930,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>Iowa, United States</value>
-				<description>Iowa</description>
-				<key>iowa-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Ames, Iowa, United States</value>
-					<description>Ames</description>
-					<key>ames-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Ankeny, Iowa, United States</value>
-					<description>Ankeny</description>
-					<key>ankeny-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Carter Lake, Iowa, United States</value>
-					<description>Carter Lake</description>
-					<key>carter-lake-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Cedar Falls, Iowa, United States</value>
-					<description>Cedar Falls</description>
-					<key>cedar-falls-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Cedar Rapids, Iowa, United States</value>
-					<description>Cedar Rapids</description>
-					<key>cedar-rapids-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Clinton, Iowa, United States</value>
-					<description>Clinton</description>
-					<key>clinton-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Clive, Iowa, United States</value>
-					<description>Clive</description>
-					<key>clive-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Coralville, Iowa, United States</value>
-					<description>Coralville</description>
-					<key>coralville-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Council Bluffs, Iowa, United States</value>
-					<description>Council Bluffs</description>
-					<key>council-bluffs-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Davenport, Iowa, United States</value>
-					<description>Davenport</description>
-					<key>davenport-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Decorah, Iowa, United States</value>
-					<description>Decorah</description>
-					<key>decorah-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Dubuque, Iowa, United States</value>
-					<description>Dubuque</description>
-					<key>dubuque-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Ft Dodge, Iowa, United States</value>
-					<description>Ft Dodge</description>
-					<key>ft-dodge-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Grinnell, Iowa, United States</value>
-					<description>Grinnell</description>
-					<key>grinnell-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Indianola, Iowa, United States</value>
-					<description>Indianola</description>
-					<key>indianola-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Mason City, Iowa, United States</value>
-					<description>Mason City</description>
-					<key>mason-city-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Northwood, Iowa, United States</value>
-					<description>Northwood</description>
-					<key>northwood-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Pella, Iowa, United States</value>
-					<description>Pella</description>
-					<key>pella-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Waterloo, Iowa, United States</value>
-					<description>Waterloo</description>
-					<key>waterloo-ia-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Idaho, United States</value>
 				<description>Idaho</description>
 				<key>idaho-us</key>
@@ -4296,6 +4212,126 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
+				<value>Iowa, United States</value>
+				<description>Iowa</description>
+				<key>iowa-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Ames, Iowa, United States</value>
+					<description>Ames</description>
+					<key>ames-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Ankeny, Iowa, United States</value>
+					<description>Ankeny</description>
+					<key>ankeny-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Carter Lake, Iowa, United States</value>
+					<description>Carter Lake</description>
+					<key>carter-lake-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Cedar Falls, Iowa, United States</value>
+					<description>Cedar Falls</description>
+					<key>cedar-falls-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Cedar Rapids, Iowa, United States</value>
+					<description>Cedar Rapids</description>
+					<key>cedar-rapids-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Clinton, Iowa, United States</value>
+					<description>Clinton</description>
+					<key>clinton-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Clive, Iowa, United States</value>
+					<description>Clive</description>
+					<key>clive-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Coralville, Iowa, United States</value>
+					<description>Coralville</description>
+					<key>coralville-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Council Bluffs, Iowa, United States</value>
+					<description>Council Bluffs</description>
+					<key>council-bluffs-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Davenport, Iowa, United States</value>
+					<description>Davenport</description>
+					<key>davenport-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Decorah, Iowa, United States</value>
+					<description>Decorah</description>
+					<key>decorah-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Dubuque, Iowa, United States</value>
+					<description>Dubuque</description>
+					<key>dubuque-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Ft Dodge, Iowa, United States</value>
+					<description>Ft Dodge</description>
+					<key>ft-dodge-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Grinnell, Iowa, United States</value>
+					<description>Grinnell</description>
+					<key>grinnell-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Indianola, Iowa, United States</value>
+					<description>Indianola</description>
+					<key>indianola-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Mason City, Iowa, United States</value>
+					<description>Mason City</description>
+					<key>mason-city-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Northwood, Iowa, United States</value>
+					<description>Northwood</description>
+					<key>northwood-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Pella, Iowa, United States</value>
+					<description>Pella</description>
+					<key>pella-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Waterloo, Iowa, United States</value>
+					<description>Waterloo</description>
+					<key>waterloo-ia-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
 				<value>Kansas, United States</value>
 				<description>Kansas</description>
 				<key>kansas-us</key>
@@ -4458,24 +4494,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>Massachusetts, United States</value>
-				<description>Massachusetts</description>
-				<key>massachusetts-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Brockton, Massachusetts, United States</value>
-					<description>Brockton</description>
-					<key>brockton-ma-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Chelmsford, Massachusetts, United States</value>
-					<description>Chelmsford</description>
-					<key>chelmsford-ma-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Maryland, United States</value>
 				<description>Maryland</description>
 				<key>maryland-us</key>
@@ -4556,6 +4574,24 @@
 					<value>Waldorf, Maryland, United States</value>
 					<description>Waldorf</description>
 					<key>waldorf-md-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>Massachusetts, United States</value>
+				<description>Massachusetts</description>
+				<key>massachusetts-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Brockton, Massachusetts, United States</value>
+					<description>Brockton</description>
+					<key>brockton-ma-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Chelmsford, Massachusetts, United States</value>
+					<description>Chelmsford</description>
+					<key>chelmsford-ma-us</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -4854,6 +4890,30 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
+				<value>Mississippi, United States</value>
+				<description>Mississippi</description>
+				<key>mississippi-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Meridian, Mississippi, United States</value>
+					<description>Meridian</description>
+					<key>meridian-ms-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Ocean Springs, Mississippi, United States</value>
+					<description>Ocean Springs</description>
+					<key>ocean-springs-ms-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Pearl, Mississippi, United States</value>
+					<description>Pearl</description>
+					<key>pearl-ms-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
 				<value>Missouri, United States</value>
 				<description>Missouri</description>
 				<key>missouri-us</key>
@@ -4890,30 +4950,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>Mississippi, United States</value>
-				<description>Mississippi</description>
-				<key>mississippi-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Meridian, Mississippi, United States</value>
-					<description>Meridian</description>
-					<key>meridian-ms-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Ocean Springs, Mississippi, United States</value>
-					<description>Ocean Springs</description>
-					<key>ocean-springs-ms-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Pearl, Mississippi, United States</value>
-					<description>Pearl</description>
-					<key>pearl-ms-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Montana, United States</value>
 				<description>Montana</description>
 				<key>montana-us</key>
@@ -4940,144 +4976,6 @@
 					<value>Kalispell, Montana, United States</value>
 					<description>Kalispell</description>
 					<key>kalispell-mt-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
-				<value>North Carolina, United States</value>
-				<description>North Carolina</description>
-				<key>north-carolina-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Archdale, North Carolina, United States</value>
-					<description>Archdale</description>
-					<key>archdale-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Asheville, North Carolina, United States</value>
-					<description>Asheville</description>
-					<key>asheville-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Boone, North Carolina, United States</value>
-					<description>Boone</description>
-					<key>boone-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Burlington, North Carolina, United States</value>
-					<description>Burlington</description>
-					<key>burlington-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Charlotte, North Carolina, United States</value>
-					<description>Charlotte</description>
-					<key>charlotte-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Concord, North Carolina, United States</value>
-					<description>Concord</description>
-					<key>concord-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Goldsboro, North Carolina, United States</value>
-					<description>Goldsboro</description>
-					<key>goldsboro-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Huntersville, North Carolina, United States</value>
-					<description>Huntersville</description>
-					<key>huntersville-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Lumberton, North Carolina, United States</value>
-					<description>Lumberton</description>
-					<key>lumberton-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Matthews, North Carolina, United States</value>
-					<description>Matthews</description>
-					<key>matthews-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Morrisville, North Carolina, United States</value>
-					<description>Morrisville</description>
-					<key>morrisville-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Rocky Mount, North Carolina, United States</value>
-					<description>Rocky Mount</description>
-					<key>rocky-mount-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Shelby, North Carolina, United States</value>
-					<description>Shelby</description>
-					<key>shelby-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Smithfield, North Carolina, United States</value>
-					<description>Smithfield</description>
-					<key>smithfield-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Spring Lake, North Carolina, United States</value>
-					<description>Spring Lake</description>
-					<key>spring-lake-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Wilmington, North Carolina, United States</value>
-					<description>Wilmington</description>
-					<key>wilmington-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Wilson, North Carolina, United States</value>
-					<description>Wilson</description>
-					<key>wilson-nc-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
-				<value>North Dakota, United States</value>
-				<description>North Dakota</description>
-				<key>north-dakota-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Bismarck, North Dakota, United States</value>
-					<description>Bismarck</description>
-					<key>bismarck-nd-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Fargo, North Dakota, United States</value>
-					<description>Fargo</description>
-					<key>fargo-nd-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Grand Forks, North Dakota, United States</value>
-					<description>Grand Forks</description>
-					<key>grand-forks-nd-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Minot, North Dakota, United States</value>
-					<description>Minot</description>
-					<key>minot-nd-us</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -5270,6 +5168,144 @@
 					<value>West Seneca, New York, United States</value>
 					<description>West Seneca</description>
 					<key>west-seneca-ny-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>North Carolina, United States</value>
+				<description>North Carolina</description>
+				<key>north-carolina-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Archdale, North Carolina, United States</value>
+					<description>Archdale</description>
+					<key>archdale-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Asheville, North Carolina, United States</value>
+					<description>Asheville</description>
+					<key>asheville-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Boone, North Carolina, United States</value>
+					<description>Boone</description>
+					<key>boone-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Burlington, North Carolina, United States</value>
+					<description>Burlington</description>
+					<key>burlington-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Charlotte, North Carolina, United States</value>
+					<description>Charlotte</description>
+					<key>charlotte-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Concord, North Carolina, United States</value>
+					<description>Concord</description>
+					<key>concord-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Goldsboro, North Carolina, United States</value>
+					<description>Goldsboro</description>
+					<key>goldsboro-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Huntersville, North Carolina, United States</value>
+					<description>Huntersville</description>
+					<key>huntersville-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Lumberton, North Carolina, United States</value>
+					<description>Lumberton</description>
+					<key>lumberton-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Matthews, North Carolina, United States</value>
+					<description>Matthews</description>
+					<key>matthews-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Morrisville, North Carolina, United States</value>
+					<description>Morrisville</description>
+					<key>morrisville-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Rocky Mount, North Carolina, United States</value>
+					<description>Rocky Mount</description>
+					<key>rocky-mount-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Shelby, North Carolina, United States</value>
+					<description>Shelby</description>
+					<key>shelby-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Smithfield, North Carolina, United States</value>
+					<description>Smithfield</description>
+					<key>smithfield-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Spring Lake, North Carolina, United States</value>
+					<description>Spring Lake</description>
+					<key>spring-lake-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Wilmington, North Carolina, United States</value>
+					<description>Wilmington</description>
+					<key>wilmington-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Wilson, North Carolina, United States</value>
+					<description>Wilson</description>
+					<key>wilson-nc-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
+				<value>North Dakota, United States</value>
+				<description>North Dakota</description>
+				<key>north-dakota-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Bismarck, North Dakota, United States</value>
+					<description>Bismarck</description>
+					<key>bismarck-nd-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Fargo, North Dakota, United States</value>
+					<description>Fargo</description>
+					<key>fargo-nd-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Grand Forks, North Dakota, United States</value>
+					<description>Grand Forks</description>
+					<key>grand-forks-nd-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Minot, North Dakota, United States</value>
+					<description>Minot</description>
+					<key>minot-nd-us</key>
 					<isAbstract>No</isAbstract>
 				</Keyword>
 			</Keyword>
@@ -6156,6 +6192,30 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
+				<value>West Virginia, United States</value>
+				<description>West Virginia</description>
+				<key>west-virginia-us</key>
+				<isAbstract>Yes</isAbstract>
+				<Keyword>
+					<value>Beckley, West Virginia, United States</value>
+					<description>Beckley</description>
+					<key>beckley-wv-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Charleston, West Virginia, United States</value>
+					<description>Charleston</description>
+					<key>charleston-wv-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+				<Keyword>
+					<value>Princeton, West Virginia, United States</value>
+					<description>Princeton</description>
+					<key>princeton-wv-us</key>
+					<isAbstract>No</isAbstract>
+				</Keyword>
+			</Keyword>
+			<Keyword>
 				<value>Wisconsin, United States</value>
 				<description>Wisconsin</description>
 				<key>wisconsin-us</key>
@@ -6306,30 +6366,6 @@
 				</Keyword>
 			</Keyword>
 			<Keyword>
-				<value>West Virginia, United States</value>
-				<description>West Virginia</description>
-				<key>west-virginia-us</key>
-				<isAbstract>Yes</isAbstract>
-				<Keyword>
-					<value>Beckley, West Virginia, United States</value>
-					<description>Beckley</description>
-					<key>beckley-wv-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Charleston, West Virginia, United States</value>
-					<description>Charleston</description>
-					<key>charleston-wv-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-				<Keyword>
-					<value>Princeton, West Virginia, United States</value>
-					<description>Princeton</description>
-					<key>princeton-wv-us</key>
-					<isAbstract>No</isAbstract>
-				</Keyword>
-			</Keyword>
-			<Keyword>
 				<value>Wyoming, United States</value>
 				<description>Wyoming</description>
 				<key>wyoming-us</key>
@@ -6381,42 +6417,6 @@
 				<value>Kien Giang Province, Vietnam</value>
 				<description>Kien Giang Province</description>
 				<key>kien-giang-province-vn</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>South Africa</value>
-		<description>South Africa</description>
-		<key>south-africa</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Cape Town, South Africa</value>
-				<description>Cape Town</description>
-				<key>cape-town-za</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Capetown, South Africa</value>
-				<description>Capetown</description>
-				<key>capetown-za</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Johannesburg, South Africa</value>
-				<description>Johannesburg</description>
-				<key>johannesburg-za</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Polokwane, South Africa</value>
-				<description>Polokwane</description>
-				<key>polokwane-za</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Port Elizabeth, South Africa</value>
-				<description>Port Elizabeth</description>
-				<key>port-elizabeth-za</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 	</Keyword>

@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding = "utf-8"?>
 <Category name = "State" xmlName = "State" isPublishable = "Yes">
 	<Keyword>
-		<value>United Arab Emirates</value>
-		<description>United Arab Emirates</description>
-		<key>AE</key>
+		<value>Algeria</value>
+		<description>Algeria</description>
+		<key>DZ</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
 		<value>Armenia</value>
 		<description>Armenia</description>
 		<key>AM</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Austria</value>
-		<description>Austria</description>
-		<key>AT</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -37,27 +31,15 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Austria</value>
+		<description>Austria</description>
+		<key>AT</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Azerbaijan</value>
 		<description>Azerbaijan</description>
 		<key>AZ</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Barbados</value>
-		<description>Barbados</description>
-		<key>BB</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Bangladesh</value>
-		<description>Bangladesh</description>
-		<key>BD</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Belgium</value>
-		<description>Belgium</description>
-		<key>BE</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -67,9 +49,27 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Brunei</value>
-		<description>Brunei</description>
-		<key>BN</key>
+		<value>Bangladesh</value>
+		<description>Bangladesh</description>
+		<key>BD</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Barbados</value>
+		<description>Barbados</description>
+		<key>BB</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Belgium</value>
+		<description>Belgium</description>
+		<key>BE</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Belize</value>
+		<description>Belize</description>
+		<key>BZ</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -109,9 +109,9 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Belize</value>
-		<description>Belize</description>
-		<key>BZ</key>
+		<value>Brunei</value>
+		<description>Brunei</description>
+		<key>BN</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -157,21 +157,9 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Congo-brazzv</value>
-		<description>Congo-brazzv</description>
-		<key>CG</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Switzerland</value>
-		<description>Switzerland</description>
-		<key>CH</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Cote D'ivoire</value>
-		<description>Cote D'ivoire</description>
-		<key>CI</key>
+		<value>Chad</value>
+		<description>Chad</description>
+		<key>TD</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -199,9 +187,27 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Congo-brazzv</value>
+		<description>Congo-brazzv</description>
+		<key>CG</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Costa Rica</value>
 		<description>Costa Rica</description>
 		<key>CR</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Cote D'ivoire</value>
+		<description>Cote D'ivoire</description>
+		<key>CI</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Croatia</value>
+		<description>Croatia</description>
+		<key>HR</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -217,18 +223,6 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Germany</value>
-		<description>Germany</description>
-		<key>DE</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Bavaria, Germany</value>
-				<description>Bavaria</description>
-				<key>BY</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
 		<value>Denmark</value>
 		<description>Denmark</description>
 		<key>DK</key>
@@ -241,21 +235,9 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Algeria</value>
-		<description>Algeria</description>
-		<key>DZ</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Ecuador</value>
 		<description>Ecuador</description>
 		<key>EC</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Estonia</value>
-		<description>Estonia</description>
-		<key>EE</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -265,9 +247,9 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Spain</value>
-		<description>Spain</description>
-		<key>ES</key>
+		<value>Estonia</value>
+		<description>Estonia</description>
+		<key>EE</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -277,15 +259,15 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Finland</value>
-		<description>Finland</description>
-		<key>FI</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Fiji Islands</value>
 		<description>Fiji Islands</description>
 		<key>FJ</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Finland</value>
+		<description>Finland</description>
+		<key>FI</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -301,9 +283,27 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>United Kingdom</value>
-		<description>United Kingdom</description>
-		<key>GB</key>
+		<value>Georgia</value>
+		<description>Georgia</description>
+		<key>GE</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Germany</value>
+		<description>Germany</description>
+		<key>DE</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Bavaria, Germany</value>
+				<description>Bavaria</description>
+				<key>BY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Greece</value>
+		<description>Greece</description>
+		<key>GR</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -313,27 +313,9 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Georgia</value>
-		<description>Georgia</description>
-		<key>GE</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Greece</value>
-		<description>Greece</description>
-		<key>GR</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Guatemala</value>
 		<description>Guatemala</description>
 		<key>GT</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Croatia</value>
-		<description>Croatia</description>
-		<key>HR</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -343,27 +325,9 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Indonesia</value>
-		<description>Indonesia</description>
-		<key>ID</key>
-		<isAbstract>Yes</isAbstract>
-			<Keyword>
-				<value>Riau, Indonesia</value>
-				<description>Riau</description>
-				<key>RI</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>Sumatera Utara, Indonesia</value>
-				<description>Sumatera Utara</description>
-				<key>SU</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>Ireland</value>
-		<description>Ireland</description>
-		<key>IE</key>
+		<value>Iceland</value>
+		<description>Iceland</description>
+		<key>IS</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -408,15 +372,15 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Maharashtra, India</value>
-				<description>Maharashtra</description>
-				<key>MH</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Madhya Pradesh, India</value>
 				<description>Madhya Pradesh</description>
 				<key>MP</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Maharashtra, India</value>
+				<description>Maharashtra</description>
+				<key>MH</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -445,9 +409,27 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Iceland</value>
-		<description>Iceland</description>
-		<key>IS</key>
+		<value>Indonesia</value>
+		<description>Indonesia</description>
+		<key>ID</key>
+		<isAbstract>Yes</isAbstract>
+			<Keyword>
+				<value>Riau, Indonesia</value>
+				<description>Riau</description>
+				<key>RI</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Sumatera Utara, Indonesia</value>
+				<description>Sumatera Utara</description>
+				<key>SU</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+	</Keyword>
+	<Keyword>
+		<value>Ireland</value>
+		<description>Ireland</description>
+		<key>IE</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -457,15 +439,21 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
+		<value>Japan</value>
+		<description>Japan</description>
+		<key>JP</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Jersey</value>
 		<description>Jersey</description>
 		<key>JE</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Japan</value>
-		<description>Japan</description>
-		<key>JP</key>
+		<value>Kazakhstan</value>
+		<description>Kazakhstan</description>
+		<key>KZ</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -481,15 +469,21 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Kazakhstan</value>
-		<description>Kazakhstan</description>
-		<key>KZ</key>
+		<value>Latvia</value>
+		<description>Latvia</description>
+		<key>LV</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
 		<value>Lebanon</value>
 		<description>Lebanon</description>
 		<key>LB</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Libyan Arab Jamahiriya</value>
+		<description>Libyan Arab Jamahiriya</description>
+		<key>LY</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -502,30 +496,6 @@
 		<value>Luxembourg</value>
 		<description>Luxembourg</description>
 		<key>LU</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Latvia</value>
-		<description>Latvia</description>
-		<key>LV</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Libyan Arab Jamahiriya</value>
-		<description>Libyan Arab Jamahiriya</description>
-		<key>LY</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Morocco</value>
-		<description>Morocco</description>
-		<key>MA</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Moldova</value>
-		<description>Moldova</description>
-		<key>MD</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -558,15 +528,15 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Morelos, Mexico</value>
-				<description>Morelos</description>
-				<key>MO</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Mexico, Mexico</value>
 				<description>Mexico</description>
 				<key>MX</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Morelos, Mexico</value>
+				<description>Morelos</description>
+				<key>MO</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -583,15 +553,27 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
+		<value>Moldova</value>
+		<description>Moldova</description>
+		<key>MD</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Morocco</value>
+		<description>Morocco</description>
+		<key>MA</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
 		<value>Mozambique</value>
 		<description>Mozambique</description>
 		<key>MZ</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Nigeria</value>
-		<description>Nigeria</description>
-		<key>NG</key>
+		<value>Nepal</value>
+		<description>Nepal</description>
+		<key>NP</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -607,15 +589,15 @@
 			</Keyword>
 	</Keyword>
 	<Keyword>
-		<value>Norway</value>
-		<description>Norway</description>
-		<key>NO</key>
+		<value>Nigeria</value>
+		<description>Nigeria</description>
+		<key>NG</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Nepal</value>
-		<description>Nepal</description>
-		<key>NP</key>
+		<value>Norway</value>
+		<description>Norway</description>
+		<key>NO</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -667,12 +649,6 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Serbia</value>
-		<description>Serbia</description>
-		<key>RS</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Russian Federation</value>
 		<description>Russian Federation</description>
 		<key>RU</key>
@@ -691,21 +667,15 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Sweden</value>
-		<description>Sweden</description>
-		<key>SE</key>
+		<value>Senegal</value>
+		<description>Senegal</description>
+		<key>SN</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Slovenia</value>
-		<description>Slovenia</description>
-		<key>SI</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>Slovakia</value>
-		<description>Slovakia</description>
-		<key>SK</key>
+		<value>Serbia</value>
+		<description>Serbia</description>
+		<key>RS</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -715,21 +685,51 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Senegal</value>
-		<description>Senegal</description>
-		<key>SN</key>
+		<value>Slovakia</value>
+		<description>Slovakia</description>
+		<key>SK</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Chad</value>
-		<description>Chad</description>
-		<key>TD</key>
+		<value>Slovenia</value>
+		<description>Slovenia</description>
+		<key>SI</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>South Africa</value>
+		<description>South Africa</description>
+		<key>ZA</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Spain</value>
+		<description>Spain</description>
+		<key>ES</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Sweden</value>
+		<description>Sweden</description>
+		<key>SE</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Switzerland</value>
+		<description>Switzerland</description>
+		<key>CH</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
 		<value>Thailand</value>
 		<description>Thailand</description>
 		<key>TH</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>Trinidad And Tobago</value>
+		<description>Trinidad And Tobago</description>
+		<key>TT</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -745,9 +745,9 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Trinidad And Tobago</value>
-		<description>Trinidad And Tobago</description>
-		<key>TT</key>
+		<value>Uganda</value>
+		<description>Uganda</description>
+		<key>UG</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -757,9 +757,15 @@
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>Uganda</value>
-		<description>Uganda</description>
-		<key>UG</key>
+		<value>United Arab Emirates</value>
+		<description>United Arab Emirates</description>
+		<key>AE</key>
+		<isAbstract>Yes</isAbstract>
+	</Keyword>
+	<Keyword>
+		<value>United Kingdom</value>
+		<description>United Kingdom</description>
+		<key>GB</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
@@ -774,15 +780,15 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Arkansas, United States</value>
-				<description>Arkansas</description>
-				<key>AR</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Arizona, United States</value>
 				<description>Arizona</description>
 				<key>AZ</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Arkansas, United States</value>
+				<description>Arkansas</description>
+				<key>AR</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -816,12 +822,6 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Iowa, United States</value>
-				<description>Iowa</description>
-				<key>IA</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Idaho, United States</value>
 				<description>Idaho</description>
 				<key>ID</key>
@@ -837,6 +837,12 @@
 				<value>Indiana, United States</value>
 				<description>Indiana</description>
 				<key>IN</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Iowa, United States</value>
+				<description>Iowa</description>
+				<key>IA</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -858,15 +864,15 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Massachusetts, United States</value>
-				<description>Massachusetts</description>
-				<key>MA</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Maryland, United States</value>
 				<description>Maryland</description>
 				<key>MD</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Massachusetts, United States</value>
+				<description>Massachusetts</description>
+				<key>MA</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -882,33 +888,21 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Missouri, United States</value>
-				<description>Missouri</description>
-				<key>MO</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>Mississippi, United States</value>
 				<description>Mississippi</description>
 				<key>MS</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
+				<value>Missouri, United States</value>
+				<description>Missouri</description>
+				<key>MO</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
 				<value>Montana, United States</value>
 				<description>Montana</description>
 				<key>MT</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>North Carolina, United States</value>
-				<description>North Carolina</description>
-				<key>NC</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
-				<value>North Dakota, United States</value>
-				<description>North Dakota</description>
-				<key>ND</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -939,6 +933,18 @@
 				<value>New York, United States</value>
 				<description>New York</description>
 				<key>NY</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>North Carolina, United States</value>
+				<description>North Carolina</description>
+				<key>NC</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>North Dakota, United States</value>
+				<description>North Dakota</description>
+				<key>ND</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -1014,15 +1020,15 @@
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
-				<value>Wisconsin, United States</value>
-				<description>Wisconsin</description>
-				<key>WI</key>
-				<isAbstract>No</isAbstract>
-			</Keyword>
-			<Keyword>
 				<value>West Virginia, United States</value>
 				<description>West Virginia</description>
 				<key>WV</key>
+				<isAbstract>No</isAbstract>
+			</Keyword>
+			<Keyword>
+				<value>Wisconsin, United States</value>
+				<description>Wisconsin</description>
+				<key>WI</key>
 				<isAbstract>No</isAbstract>
 			</Keyword>
 			<Keyword>
@@ -1048,12 +1054,6 @@
 		<value>Vietnam</value>
 		<description>Vietnam</description>
 		<key>VN</key>
-		<isAbstract>Yes</isAbstract>
-	</Keyword>
-	<Keyword>
-		<value>South Africa</value>
-		<description>South Africa</description>
-		<key>ZA</key>
 		<isAbstract>Yes</isAbstract>
 	</Keyword>
 	<Keyword>
