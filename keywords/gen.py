@@ -254,14 +254,14 @@ def genRoomNameTree(data):
             #hotel index
             hi = ind(tree[ci].children[cii].children, hn[i])
             if not exist(tree[ci].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(rooms[i], rooms[i], hc[i] + '-' + rc[i], "No", 5)
+                k = Keyword(rooms[i], rooms[i], hc[i] + rc[i], "No", 5)
                 tree[ci].children[cii].children[hi].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
             hi = ind(tree[ci].children[si].children[cii].children, hn[i])
             if not exist(tree[ci].children[si].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(rooms[i], rooms[i], hc[i] + '-' + rc[i], "No", 6)
+                k = Keyword(rooms[i], rooms[i], hc[i] + rc[i], "No", 6)
                 tree[ci].children[si].children[cii].children[hi].children.append(k)
     return tree
 
@@ -421,14 +421,14 @@ def genStateTree(data):
     tree = []
     for i in range(len(countries)):
         if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], cc[i], "Yes", 1)
+            k = Keyword(countries[i], countries[i], cc[i].upper(), "Yes", 1)
             tree.append(k)
     for i in range(len(states)):
         ci = ind(tree, countries[i])
         v = states[i]+', '+countries[i]
         if states[i] != '':
             if not exist(tree[ci].children, v):
-                k = Keyword(v, states[i], sc[i], "No", 3)
+                k = Keyword(v, states[i], sc[i].upper(), "No", 3)
                 tree[ci].children.append(k)
     return tree
 
@@ -438,7 +438,7 @@ def genCountryTree(data):
     tree = []
     for i in range(len(countries)):
         if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], cc[i], "No", 1)
+            k = Keyword(countries[i], countries[i], cc[i].upper(), "No", 1)
             tree.append(k)
     return tree
 
