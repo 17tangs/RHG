@@ -1,5 +1,11 @@
 METADATA_ID = "tcm:4-124-512"
 
+def xmlFriendly(l):
+    for i in range(len(l)):
+        l[i] = l[i].replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;").replace("\"", "&quot;").replace("\'", "&apos;")
+    return l
+
+
 class Keyword:
     def __init__(self, v="", d="", k="", a="No", i=0, l=None, m_hasMeta = False):
         self.value = v
@@ -11,8 +17,10 @@ class Keyword:
         self.hasMeta = m_hasMeta
 
     def __str__(self):
+        x = xmlFriendly([self.value, self.des, self.key])
+        self.value, self.des, self.key = x[0], x[1], x[2]
         if self.hasMeta:
-            beg = ["<Keyword>", "\t<value>" + self.value + "</value>", "\t<description>" + self.des + "</description>", "\t<key>" + self.key + "</key>","\t<isAbstract>"+ self.abst+"</isAbstract>", "\t<Metadata ID=\"" + METADATA_ID + "\"></Metadata>"]
+            beg = ["<Keyword>", "\t<value>" + self.value + "</value>", "\t<description>" + self.des + "</description>", "\t<key>" + self.key + "</key>","\t<isAbstract>"+ self.abst+"</isAbstract>", "\t<Metadata schema=\"" + METADATA_ID + "\"></Metadata>"]
         else:
             beg = ["<Keyword>", "\t<value>" + self.value + "</value>", "\t<description>" + self.des + "</description>", "\t<key>" + self.key + "</key>","\t<isAbstract>"+ self.abst+"</isAbstract>"]
         end = "</Keyword>"

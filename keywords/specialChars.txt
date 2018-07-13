@@ -1,0 +1,18 @@
+hotel special characters are: 
+.(-)/&,'
+
+cities special characters are: 
+.-&,'
+
+states special characters are: 
+
+
+countries special characters are: 
+'-
+
+grt special characters are: 
+.(/-)&,':+
+
+prt special characters are: 
+.(-)/	&,':
+

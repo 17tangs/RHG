@@ -1,13 +1,13 @@
 <?xml version = "1.0" encoding= "UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
-	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyPoiType.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
 	<xs:include schemaLocation = "../general/Link.xsd"/>
-	<xs:include schemaLocation = "../keywords/keyCountry.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyHotelName.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCity.xsd"/>
+	<xs:include schemaLocation = "../general/Coordinates.xsd"/>
 	<xs:include schemaLocation = "../general/TextTitleSubtitleDescription.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyCountry.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyPoiType.xsd"/>
+	<xs:include schemaLocation = "../keywords/keyState.xsd"/>
 <xs:complexType name = "Poi">
 	<xs:sequence>
 		<xs:attribute name = "schema" type = "xs:string" fixed = "Poi"/>

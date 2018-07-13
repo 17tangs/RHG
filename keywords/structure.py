@@ -19,16 +19,16 @@ stateStructure = [[["countryNames|s|"], ["countryNames|s|"], ["countryCodes|u|"]
                   [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["stateCodes|u|", "countryCodes|u|","-"]]]
 
 cityStructure =  [[["countryNames|s|"], ["countryNames|s|"], ["countryNames|l|-"]],
-                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["stateNames|l|-", "countryCodes|l|-", "-"]]
+                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["stateNames|l|-", "countryCodes|l|-", "-"]],
                   [["cities|s|","stateNames|s|","countryNames|s|", ", "], ["cities|s|"], ["cities|l|-", "stateCodes|l|-", "countryCodes|l|-", "-"]]]
 
 hotelStructure = [[["countryNames|s|"], ["countryNames|s|"], ["||"]],
-                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["||"]]
+                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["||"]],
                   [["cities|s|","stateNames|s|","countryNames|s|", ", "], ["cities|s|"], ["||"]],
                   [["hotelNames|s|"], ["hotelNames|s|"], ["hotelCodes|u|"]]]
 
 roomStructure =  [[["countryNames|s|"], ["countryNames|s|"], ["||"]],
-                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["||"]]
+                  [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["||"]],
                   [["cities|s|","stateNames|s|","countryNames|s|", ", "], ["cities|s|"], ["||"]],
                   [["hotelNames|s|"], ["hotelNames|s|"], ["hotelCodes|u|"]],
                   [["grt|s|"], ["grt|s|"], ["hotelCodes|u|", "grtCode|u|", "-"]],

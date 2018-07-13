@@ -1,0 +1,12 @@
+<?xml version = "1.0" encoding= "UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+		<xs:simpleType name = "keyBrands">
+			<xs:restriction base = "xs:string">
+				<xs:enumeration value = "RAD"/>
+				<xs:enumeration value = "CHI"/>
+				<xs:enumeration value = "PII"/>
+				<xs:enumeration value = "QCN"/>
+				<xs:enumeration value = "PKP"/>
+			</xs:restriction>
+		</xs:simpleType>
+</xs:schema>
