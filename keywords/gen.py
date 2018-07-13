@@ -1,9 +1,10 @@
 import xlrd
 import os
 import xlsxwriter
-from mapping import SM, CM
 import time
 from Keyword import Keyword
+from Load import * #hotelCodes, hotelNames, cities, stateNames, stateCodes, countryNames, countryCodes, brands, grt, grtCode, prt, prtCode, INPUT, COUNTRY_CODE_INDEX, STATE_CODE_INDEX
+
 START = time.time()
 
 #keyword xml locations
@@ -20,37 +21,9 @@ OUTPUT = 'C:\\Users\\gf174cq\\projects\\RHG\\xsd\\keywords.xlsx'
 
 #Global variables
 KEYLIST = []
+LEN = len(hotelCodes)
 
 
-
-
-def genCountryNames():
-    wb = xlrd.open_workbook(INPUT)
-    ws = wb.sheet_by_index(0)
-    cn = ws.col_values(COUNTRY_CODE_INDEX)[1:]
-    f = open('cn.txt', 'w')
-    for code in cn:
-        f.write(CM[code]+'\n')
-    f.close()
-
-def genStateNames():
-    wb = xlrd.open_workbook(INPUT)
-    ws = wb.sheet_by_index(0)
-    sc = ws.col_values(STATE_CODE_INDEX)[1:]
-    cc = ws.col_values(COUNTRY_CODE_INDEX)[1:]
-    id = []
-    for i in range(len(sc)):
-        if sc[i] == '':
-            id.append('')
-        else:
-            id.append(sc[i]+ ' ' + cc[i])
-    f = open('sn.txt', 'w')
-    for code in id:
-        f.write(SM[code]+'\n')
-    f.close()
-
-genCountryNames()
-genStateNames()
 
 #parse the name of the countries, states, and city to have capital first letter and lower case rest for each word
 def parseName(s):
@@ -73,44 +46,6 @@ def parseName(s):
     return ' '.join(l)
 
 #load keywords from EXCEL
-def load():
-    wb = xlrd.open_workbook(INPUT)
-    ws = wb.sheet_by_index(0)
-    #hotel codes
-    hc = [s.strip() for s in ws.col_values(HOTEL_CODE_INDEX)[1:]]
-    #hotel names
-    hn = [s.strip() for s in ws.col_values(HOTEL_NAME_INDEX)[1:]]
-    for i in range(len(hn)):
-        hn[i] = hn[i].replace("&", "&amp;")
-    #city names
-    cities = [s.strip() for s in ws.col_values(CITY_INDEX)[1:]]
-    #parse the city names to correct format
-    for s in range(len(cities)):
-        cities[s] = parseName(cities[s])
-    #state names
-    states = [s.strip() for s in ws.col_values(STATE_NAME_INDEX)[1:]]
-    for s in range(len(states)):
-        states[s] = parseName(states[s])
-    #state code
-    sc = [s.strip() for s in ws.col_values(STATE_CODE_INDEX)[1:]]
-    #country names
-    countries = [s.strip() for s in ws.col_values(COUNTRY_NAME_INDEX)[1:]]
-    for s in range(len(countries)):
-        countries[s] = parseName(countries[s])
-    #country code
-    cc = [s.strip() for s in ws.col_values(COUNTRY_CODE_INDEX)[1:]]
-    #brand names
-    brand = [s.strip() for s in ws.col_values(BRAND_INDEX)[1:]]
-    grt = [s.strip() for s in ws.col_values(GRT_NAME_INDEX)[1:]]
-    for i in range(len(grt)):
-        grt[i] = grt[i].replace("&", "&amp;")
-    grtc = [s.strip() for s in ws.col_values(GRT_CODE_INDEX)[1:]]
-    prt = [s.strip() for s in ws.col_values(PRT_NAME_INDEX)[1:]]
-    for i in range(len(prt)):
-        prt[i] = prt[i].replace("&", "&amp;")
-    prtc = [s.strip() for s in ws.col_values(PRT_CODE_INDEX)[1:]]
-    pair = dict(zip(["hotelCode", "hotelName", "city", "state", "stateCode", "country", "countryCode", "brand", "room", "roomCode", "prt", "prtCode"],[hc, hn, cities, states, sc, countries, cc, brand, grt ,grtc, prt, prtc]))
-    return pair
 
 
 #return the index of the target (tar) in the list (l)
@@ -130,41 +65,29 @@ def exist(l, tar):
     return False
 
 
-def genRoomNameTree(data):
-    hc = data["hotelCode"]
-    hn = data["hotelName"]
-    cities = data["city"]
-    states = data["state"]
-    sc = data["stateCode"]
-    countries = data["country"]
-    cc = data["countryCode"]
-    brand = data["brand"]
-    rooms = data["room"]
-    rc = data["roomCode"]
-    prt = data["prt"]
-    prtc = data["prtCode"]
+def genRoomNameTree():
     tree = []
     #country
-    for i in range(len(countries)):
-        if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], '', "Yes", 1)
+    for i in range(len(countryNames)):
+        if not exist(tree, countryNames[i]):
+            k = Keyword(countryNames[i], countryNames[i], '', "Yes", 1)
             tree.append(k)
 
     #states
-    for i in range(len(states)):
-        ci = ind(tree, countries[i])
-        v = states[i]+', '+countries[i]
-        if states[i] != '':
+    for i in range(len(stateNames)):
+        ci = ind(tree, countryNames[i])
+        v = stateNames[i]+', '+countryNames[i]
+        if stateNames[i] != '':
             if not exist(tree[ci].children, v):
-                k = Keyword(v, states[i], '', "Yes", 3)
+                k = Keyword(v, stateNames[i], '', "Yes", 3)
                 tree[ci].children.append(k)
 
     #city
     for i in range(len(cities)):
-        ci = ind(tree, countries[i])
-        s = states[i] + ', ' + countries[i]
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
-        if states[i] == '':
+        ci = ind(tree, countryNames[i])
+        s = stateNames[i] + ', ' + countryNames[i]
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             if not exist(tree[ci].children,v):
                 k = Keyword(v, cities[i], '', "Yes", 3)
                 tree[ci].children.append(k)
@@ -175,76 +98,78 @@ def genRoomNameTree(data):
                 tree[ci].children[si].children.append(k)
 
     #hotel
-    for i in range(len(hn)):
-        ci = ind(tree, countries[i])
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
-        s = states[i] + ', ' + countries[i]
-        if states[i] == '':
+    for i in range(len(hotelNames)):
+        ci = ind(tree, countryNames[i])
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
+        s = stateNames[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             cii = ind(tree[ci].children, v)
-            if not exist(tree[ci].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "Yes", 4)
+            if not exist(tree[ci].children[cii].children, hotelNames[i]):
+                k = Keyword(hotelNames[i], hotelNames[i], hotelCodes[i], "Yes", 4)
                 tree[ci].children[cii].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
-            if not exist(tree[ci].children[si].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "Yes", 5)
+            if not exist(tree[ci].children[si].children[cii].children, hotelNames[i]):
+                k = Keyword(hotelNames[i], hotelNames[i], hotelCodes[i], "Yes", 5)
                 tree[ci].children[si].children[cii].children.append(k)
 
     #rooms
-    for i in range(len(rooms)):
+    for i in range(len(grt)):
         #country index
-        ci = ind(tree, countries[i])
+        ci = ind(tree, countryNames[i])
         #value of city
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
         #value of state
-        s = states[i] + ', ' + countries[i]
-        if states[i] == '':
+        s = stateNames[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             #city index
             cii = ind(tree[ci].children, v)
             #hotel index
-            hi = ind(tree[ci].children[cii].children, hn[i])
-            if not exist(tree[ci].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(hc[i] + '-' + rooms[i], rooms[i], hc[i] + '-' + rc[i], "Yes", 5)
+            hi = ind(tree[ci].children[cii].children, hotelNames[i])
+            if not exist(tree[ci].children[cii].children[hi].children, grt[i]):
+                k = Keyword(hotelCodes[i] + '-' + grt[i], grt[i], hotelCodes[i] + '-' + grtCode[i], "Yes", 5)
                 tree[ci].children[cii].children[hi].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
-            hi = ind(tree[ci].children[si].children[cii].children, hn[i])
-            if not exist(tree[ci].children[si].children[cii].children[hi].children, rooms[i]):
-                k = Keyword(hc[i] + '-' + rooms[i], rooms[i], hc[i] + '-' + rc[i], "Yes", 6)
+            hi = ind(tree[ci].children[si].children[cii].children, hotelNames[i])
+            if not exist(tree[ci].children[si].children[cii].children[hi].children, grt[i]):
+                k = Keyword(hotelCodes[i] + '-' + grt[i], grt[i], hotelCodes[i] + '-' + grtCode[i], "Yes", 6)
                 tree[ci].children[si].children[cii].children[hi].children.append(k)
 
-    for i in range(len(rooms)):
+    for i in range(len(grt)):
         #country index
-        ci = ind(tree, countries[i])
+        ci = ind(tree, countryNames[i])
         #value of city
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
         #value of state
-        s = states[i] + ', ' + countries[i]
-        if states[i] == '':
+        s = stateNames[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             #city index
             cii = ind(tree[ci].children, v)
             #hotel index
-            hi = ind(tree[ci].children[cii].children, hn[i])
+            hi = ind(tree[ci].children[cii].children, hotelNames[i])
             #room index
-            ri = ind(tree[ci].children[cii].children[hi].children, hc[i] + '-' + rooms[i])
+            ri = ind(tree[ci].children[cii].children[hi].children, hotelCodes[i] + '-' + grt[i])
             if not exist(tree[ci].children[cii].children[hi].children[ri].children, prt[i]):
-                k = Keyword(hc[i] + '-' + prt[i], prt[i], hc[i] + '-' + prtc[i], "No", 6)
+                v = hotelCodes[i] + '-' + grt[i] if prt[i] == '' else hotelCodes[i] + '-' + prt[i]
+                k = Keyword(v, prt[i], hotelCodes[i] + '-' + prtCode[i], "No", 6)
                 tree[ci].children[cii].children[hi].children[ri].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
-            hi = ind(tree[ci].children[si].children[cii].children, hn[i])
-            ri = ind(tree[ci].children[si].children[cii].children[hi].children, hc[i] + '-' + rooms[i])
+            hi = ind(tree[ci].children[si].children[cii].children, hotelNames[i])
+            ri = ind(tree[ci].children[si].children[cii].children[hi].children, hotelCodes[i] + '-' + grt[i])
             if not exist(tree[ci].children[si].children[cii].children[hi].children[ri].children, prt[i]):
-                k = Keyword(hc[i] + '-' + prt[i], prt[i], hc[i] + '-' + rc[i], "No", 7)
+                v = hotelCodes[i] + '-' + grt[i] if prt[i] == '' else hotelCodes[i] + '-' + prt[i]
+                k = Keyword(v, prt[i], hotelCodes[i] + '-' + prtCode[i], "No", 7)
                 tree[ci].children[si].children[cii].children[hi].children[ri].children.append(k)
     return tree
 
 
 
-def genHotelNameTree(data):
+def genHotelNameTree():
     wb = xlsxwriter.Workbook(OUTPUT)
     worksheet = wb.add_worksheet()
     worksheet.set_column('A:A', 20)
@@ -253,33 +178,24 @@ def genHotelNameTree(data):
     worksheet.set_column('D:D', 10)
     worksheet.set_column('E:E', 50)
     worksheet.set_column('F:F', 50)
-    hc = data["hotelCode"]
-    hn = data["hotelName"]
-    cities = data["city"]
-    states = data["state"]
-    sc = data["stateCode"]
-    countries = data["country"]
-    cc = data["countryCode"]
-    brand = data["brand"]
-    rooms = data["room"]
     tree = []
-    worksheet.write(0,0, "Countries")
+    worksheet.write(0,0, "CountryNames")
     counter = 1
-    for i in range(len(countries)):
-        if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], '', "Yes", 1)
+    for i in range(len(countryNames)):
+        if not exist(tree, countryNames[i]):
+            k = Keyword(countryNames[i], countryNames[i], '', "Yes", 1)
             tree.append(k)
             KEYLIST.append(k)
-            worksheet.write(counter, 0, countries[i])
+            worksheet.write(counter, 0, countryNames[i])
             counter += 1
     counter = 1
-    worksheet.write(0,1,"States")
-    for i in range(len(states)):
-        ci = ind(tree, countries[i])
-        v = states[i]+', '+countries[i]
-        if states[i] != '':
+    worksheet.write(0,1,"StateNames")
+    for i in range(len(stateNames)):
+        ci = ind(tree, countryNames[i])
+        v = stateNames[i]+', '+countryNames[i]
+        if stateNames[i] != '':
             if not exist(tree[ci].children, v):
-                k = Keyword(v, states[i], '', "Yes", 3)
+                k = Keyword(v, stateNames[i], '', "Yes", 3)
                 worksheet.write(counter, 1, v)
                 tree[ci].children.append(k)
                 KEYLIST.append(k)
@@ -289,10 +205,10 @@ def genHotelNameTree(data):
     counter = 1
     worksheet.write(0,2,"Cities")
     for i in range(len(cities)):
-        ci = ind(tree, countries[i])
-        s = states[i] + ', ' + countries[i]
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
-        if states[i] == '':
+        ci = ind(tree, countryNames[i])
+        s = stateNames[i] + ', ' + countryNames[i]
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             if not exist(tree[ci].children,v):
                 k = Keyword(v, cities[i], '', "Yes", 3)
                 worksheet.write(counter, 2, v)
@@ -308,36 +224,36 @@ def genHotelNameTree(data):
                 worksheet.write(counter, 2, v)
                 counter += 1
 
-    worksheet.write(0,3,"Brand")
-    brand = list(set(brand))
-    for i in range(len(brand)):
-        worksheet.write(i+1, 3, brand[i])
+    worksheet.write(0,3,"Brands")
+    b = list(set(brands))
+    for i in range(len(b)):
+        worksheet.write(i+1, 3, b[i])
 
     counter = 1
     worksheet.write(0,4,"Hotel Name")
-    for i in range(len(hn)):
-        ci = ind(tree, countries[i])
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
-        s = states[i] + ', ' + countries[i]
-        if states[i] == '':
+    for i in range(len(hotelNames)):
+        ci = ind(tree, countryNames[i])
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
+        s = stateNames[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             cii = ind(tree[ci].children, v)
-            if not exist(tree[ci].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "No", 4, None, True)
+            if not exist(tree[ci].children[cii].children, hotelNames[i]):
+                k = Keyword(hotelNames[i], hotelNames[i], hotelCodes[i], "No", 4, None, True)
                 tree[ci].children[cii].children.append(k)
                 KEYLIST.append(k)
-                worksheet.write(counter, 4, hn[i])
+                worksheet.write(counter, 4, hotelNames[i])
                 counter += 1
         else:
             si = ind(tree[ci].children, s)
             cii = ind(tree[ci].children[si].children, v)
-            if not exist(tree[ci].children[si].children[cii].children, hn[i]):
-                k = Keyword(hn[i], hn[i], hc[i], "No", 5, None, True)
+            if not exist(tree[ci].children[si].children[cii].children, hotelNames[i]):
+                k = Keyword(hotelNames[i], hotelNames[i], hotelCodes[i], "No", 5, None, True)
                 tree[ci].children[si].children[cii].children.append(k)
                 KEYLIST.append(k)
-                worksheet.write(counter, 4, hn[i])
+                worksheet.write(counter, 4, hotelNames[i])
                 counter += 1
     worksheet.write(0,5, "Room Name")
-    l = rooms
+    l = grt
     l = list(set(l))
     for i in range(len(l)):
         worksheet.write(i+1, 5, l[i])
@@ -357,76 +273,148 @@ def parseKeyFrom(s):
     l.append(w)
     return '-'.join([t.strip().lower() for t in l if t != ""])
 
-def genCityTree(data):
-    cities = data["city"]
-    states = data["state"]
-    sc = data["stateCode"]
-    countries = data["country"]
-    cc = data["countryCode"]
+def genCityTree():
     tree = []
-    for i in range(len(countries)):
-        if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], parseKeyFrom(countries[i]), "Yes", 1)
+    for i in range(len(countryNames)):
+        if not exist(tree, countryNames[i]):
+            k = Keyword(countryNames[i], countryNames[i], parseKeyFrom(countryNames[i]), "Yes", 1)
             tree.append(k)
-    for i in range(len(states)):
-        ci = ind(tree, countries[i])
-        v = states[i]+', '+countries[i]
-        if states[i] != '':
+    for i in range(len(stateNames)):
+        ci = ind(tree, countryNames[i])
+        v = stateNames[i]+', '+countryNames[i]
+        if stateNames[i] != '':
             if not exist(tree[ci].children, v):
-                k = Keyword(v, states[i], parseKeyFrom(states[i] + ' ' + cc[i]), "Yes", 3)
+                k = Keyword(v, stateNames[i], parseKeyFrom(stateNames[i] + ' ' + countryCodes[i]), "Yes", 3)
                 tree[ci].children.append(k)
     for i in range(len(cities)):
-        ci = ind(tree, countries[i])
-        s = states[i] + ', ' + countries[i]
-        v = cities[i] + ', ' + states[i]+', '+countries[i] if states[i] != '' else cities[i] + ', ' + countries[i]
-        if states[i] == '':
+        ci = ind(tree, countryNames[i])
+        s = stateNames[i] + ', ' + countryNames[i]
+        v = cities[i] + ', ' + stateNames[i]+', '+countryNames[i] if stateNames[i] != '' else cities[i] + ', ' + countryNames[i]
+        if stateNames[i] == '':
             if not exist(tree[ci].children,v):
-                k = Keyword(v, cities[i], parseKeyFrom(cities[i] + ' ' + sc[i] + ' ' + cc[i]), "No", 3)
+                k = Keyword(v, cities[i], parseKeyFrom(cities[i] + ' ' + stateCodes[i] + ' ' + countryCodes[i]), "No", 3)
                 tree[ci].children.append(k)
         else:
             si = ind(tree[ci].children, s)
             if not exist(tree[ci].children[si].children, v):
-                k = Keyword(v, cities[i], parseKeyFrom(cities[i] + ' ' + sc[i] + ' ' + cc[i]), "No", 4)
+                k = Keyword(v, cities[i], parseKeyFrom(cities[i] + ' ' + stateCodes[i] + ' ' + countryCodes[i]), "No", 4)
                 tree[ci].children[si].children.append(k)
     return tree
 
-def genStateTree(data):
-    states = data["state"]
-    sc = data["stateCode"]
-    countries = data["country"]
-    cc = data["countryCode"]
+def genStateTree():
     tree = []
-    for i in range(len(countries)):
-        if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], cc[i].upper(), "Yes", 1)
-            tree.append(k)
-    for i in range(len(states)):
-        ci = ind(tree, countries[i])
-        v = states[i]+', '+countries[i]
-        if states[i] != '':
+    for i in range(len(countryNames)):
+        if not exist(tree, countryNames[i]):
+            if stateNames[i] != '':
+                k = Keyword(countryNames[i], countryNames[i], countryCodes[i].upper(), "Yes", 1)
+                tree.append(k)
+    for i in range(len(stateNames)):
+        if stateNames[i] != '':
+            ci = ind(tree, countryNames[i])
+            v = stateNames[i]+', '+countryNames[i]
             if not exist(tree[ci].children, v):
-                k = Keyword(v, states[i], sc[i].upper(), "No", 3)
+                k = Keyword(v, stateNames[i], countryCodes[i] + '-' + stateCodes[i].upper(), "No", 3)
                 tree[ci].children.append(k)
     return tree
 
-def genCountryTree(data):
-    countries = data["country"]
-    cc = data["countryCode"]
+def genCountryTree():
     tree = []
-    for i in range(len(countries)):
-        if not exist(tree, countries[i]):
-            k = Keyword(countries[i], countries[i], cc[i].upper(), "No", 1)
+    for i in range(len(countryNames)):
+        if not exist(tree, countryNames[i]):
+            k = Keyword(countryNames[i], countryNames[i], countryCodes[i].upper(), "No", 1)
             tree.append(k)
     return tree
 
-def genBrandTree(data):
-    brands = data["brand"]
+def genBrandTree():
     tree = []
     for i in range(len(brands)):
         if not exist(tree, brands[i]):
             k = Keyword(brands[i], brands[i], brands[i], "No", 1)
             tree.append(k)
     return tree
+
+def split(s):
+    #this little section ensures the phrase starts with a word and not a special character
+    while not s[0].isalnum():
+        s = s[1:]
+    words = []
+    symbols = []
+    word = ""
+    symbol = ""
+    for i in s:
+        if i not in " \t.-,&()/;:":
+            symbols.append(symbol)
+            symbol = ""
+            word += i
+        else:
+            words.append(word)
+            word = ""
+            symbol += i
+    words.append(word)
+    symbols.append(symbol)
+    words = [s for s in words if s != '']
+    symbols = [s for s in symbols if s != '']
+    return [words, symbols]
+
+
+
+def parseWord(s, f):
+    #s is the word, f is the flag (s = standard, u = upper, l = lower)
+    if f == 's':
+        return s[0].upper() + s[1:].lower()
+    elif f == 'u':
+        return s.upper()
+    elif f == 'l':
+        return s.lower()
+
+def join(w, s):
+    #w is the word list, s is the symbol list
+    phrase = ""
+    for i in range(len(w)):
+        #note this function always assume the phrase starts with a word
+        phrase += w[i]
+        #in case the phrase ends with a word not a symbol
+        phrase += s[i] if i < len(s) else ''
+
+
+print(split("hello, my name's Sam; To be precise Sam-wu & Tang;  (haha)"))
+print(split(" hello, my name's Sam; To be precise Sam-wu & Tang;  (haha)"))
+print(split("$ .dl;'hello, my name's Sam; To be precise Sam-wu & Tang;  (haha)"))
+
+def parsePhrase(s, i):
+    s = s.split('|')
+    name = s[0]
+    flag = s[1]
+    concat = s[2]
+    if name == '':
+        return ''
+    phrase = globals()[s[1]]
+    if flag == 'd':
+        return phrase
+    words = split(phrase)[0]
+    separators = split(phrase)[1]
+    words = [parseWord(word, flag) for word in words]
+    if concat != '':
+        return concat.join(words)
+    else:
+        return join(wrods, separators)
+
+
+
+def parseValue(template, index):
+    pass
+
+
+
+def trunk(structure, isAbstract):
+    tree = []
+    for i in range(LEN):
+        values = [parse(a, i) for a in structure]
+        if not exist(tree, values[0]):
+            k = Keyword(values[0], values[1], values[2], isAbstract, 1)
+            tree.append(k)
+    return tree
+
 
 
 def validation(l):
@@ -444,8 +432,8 @@ def genHeader(s):
 def genFooter():
     return "</Category>\n"
 
-def genHotelName(data):
-    tree = genHotelNameTree(data)
+def genHotelName():
+    tree = genHotelNameTree()
     header = genHeader("Hotel")
     content = ""
     for i in tree:
@@ -457,8 +445,8 @@ def genHotelName(data):
     f.close()
 
 
-def genCity(data):
-    tree = genCityTree(data)
+def genCity():
+    tree = genCityTree()
     header = genHeader("City")
     content = ""
     for i in tree:
@@ -470,8 +458,8 @@ def genCity(data):
     f.close()
 
 
-def genState(data):
-    tree = genStateTree(data)
+def genState():
+    tree = genStateTree()
     header = genHeader("State")
     content = ""
     for i in tree:
@@ -482,8 +470,8 @@ def genState(data):
     f.write(output)
     f.close()
 
-def genCountry(data):
-    tree = genCountryTree(data)
+def genCountry():
+    tree = genCountryTree()
     header = genHeader("Country")
     content = ""
     for i in tree:
@@ -494,9 +482,9 @@ def genCountry(data):
     f.write(output)
     f.close()
 
-def genBrand(data):
-    tree = genBrandTree(data)
-    header = genHeader("Brand")
+def genBrand():
+    tree = genBrandTree()
+    header = genHeader("Hotel brand")
     content = ""
     for i in tree:
         content += str(i)
@@ -506,9 +494,9 @@ def genBrand(data):
     f.write(output)
     f.close()
 
-def genRoom(data):
-    tree = genRoomNameTree(data)
-    header = genHeader("Room")
+def genRoom():
+    tree = genRoomNameTree()
+    header = genHeader("Room type")
     content = ""
     for i in tree:
         content += str(i)
@@ -519,17 +507,18 @@ def genRoom(data):
     f.close()
 
 def gen():
-    data = load()
     if not os.path.exists(DIRECTORY):
         os.makedirs(DIRECTORY)
-    genHotelName(data)
-    genCity(data)
-    genState(data)
-    genCountry(data)
-    genBrand(data)
-    genRoom(data)
+    # genHotelName()
+    # genCity()
+    # genState()
+    # genCountry()
+    # genRoom()
+    genBrand()
 
-gen()
+#gen()
+# genCountryNames()
+# genStateNames()
 
 print("\n-------------%s seconds ----------------" % (time.time()-START))
 

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding = "utf-8"?>
-<Category name = "Brand" xmlName = "Brand" isPublishable = "Yes">
+<Category name = "Hotel brand" xmlName = "Hotel brand" isPublishable = "Yes">
 	<Keyword>
 		<value>RAD</value>
 		<description>RAD</description>
