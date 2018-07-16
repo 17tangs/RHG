@@ -5715,12 +5715,6 @@
 			<isAbstract>No</isAbstract>
 			<Metadata schema="tcm:4-124-512"></Metadata>
 		</Keyword>
-	</Keyword>
-	<Keyword>
-		<value>St. Petersburg, Russian Federation</value>
-		<description>St. Petersburg</description>
-		<key></key>
-		<isAbstract>Yes</isAbstract>
 		<Keyword>
 			<value>Park Inn By Radisson Pulkovo Airport St. Petersburg</value>
 			<description>Park Inn By Radisson Pulkovo Airport St. Petersburg</description>
@@ -11265,12 +11259,6 @@
 				<isAbstract>No</isAbstract>
 				<Metadata schema="tcm:4-124-512"></Metadata>
 			</Keyword>
-		</Keyword>
-		<Keyword>
-			<value>St. Cloud, Minnesota, United States</value>
-			<description>St. Cloud</description>
-			<key></key>
-			<isAbstract>Yes</isAbstract>
 			<Keyword>
 				<value>Country Inn &amp;Amp; Suites By Radisson, St. Cloud East, Mn</value>
 				<description>Country Inn &amp;Amp; Suites By Radisson, St. Cloud East, Mn</description>

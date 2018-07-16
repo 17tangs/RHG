@@ -2574,12 +2574,6 @@
 		<isAbstract>No</isAbstract>
 	</Keyword>
 	<Keyword>
-		<value>St. Petersburg, Russian Federation</value>
-		<description>St. Petersburg</description>
-		<key>st-petersburg-ru</key>
-		<isAbstract>No</isAbstract>
-	</Keyword>
-	<Keyword>
 		<value>Veliky Novgorod, Russian Federation</value>
 		<description>Veliky Novgorod</description>
 		<key>veliky-novgorod-ru</key>
@@ -4879,12 +4873,6 @@
 		<Keyword>
 			<value>St Cloud, Minnesota, United States</value>
 			<description>St Cloud</description>
-			<key>st-cloud-mn-us</key>
-			<isAbstract>No</isAbstract>
-		</Keyword>
-		<Keyword>
-			<value>St. Cloud, Minnesota, United States</value>
-			<description>St. Cloud</description>
 			<key>st-cloud-mn-us</key>
 			<isAbstract>No</isAbstract>
 		</Keyword>

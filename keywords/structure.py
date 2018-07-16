@@ -31,8 +31,8 @@ roomStructure =  [[["countryNames|s|"], ["countryNames|s|"], ["||"]],
                   [["stateNames|s|","countryNames|s|", ", "], ["stateNames|s|"], ["||"]],
                   [["cities|s|","stateNames|s|","countryNames|s|", ", "], ["cities|s|"], ["||"]],
                   [["hotelNames|s|"], ["hotelNames|s|"], ["hotelCodes|u|"]],
-                  [["grt|s|"], ["grt|s|"], ["hotelCodes|u|", "grtCode|u|", "-"]],
-                  [["prt|s|"], ["prt|s|"], ["hotelCodes|u|", "prtCode|u|", "-"]]]
+                  [["hotelCodes|u|", "grt|s|", ", "], ["grt|s|"], ["hotelCodes|u|", "grtCode|u|", "-"]]]
+                 # [["hotelCodes|u|", "prt|s|", ", "], ["prt|s|"], ["hotelCodes|u|", "prtCode|u|", "-"]]]
 
 
 

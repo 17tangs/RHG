@@ -25,17 +25,18 @@ def exist(l, tar):  #return true if target (tar) is in list (l)
 def genTree(structure):
     depth = len(structure)
     tree = []
+    data = [[[parseField(f, i) for f in layer] for layer in structure] for i in range(LEN)]
     for d in range(depth):
         isAbstract = "No" if d == depth - 1 else "Yes"
         for i in range(LEN):
-            data = [[parseField(f, i) for f in layer] for layer in structure]
-            meta = True if structure[d][0][0].split('|')[0] == "hotelNames" else False
-            values = data[d]
+            row = data[i]
+            meta = True if structure[d][0][0].split('|')[0] == "hotelNames" and d == depth-1 else False
+            values = row[d]
             l = tree
             offset = 0
             for j in range(d):
-                if ind(l, data[j][0]) != 'a':
-                    l = l[ind(l, data[j][0])].children
+                if ind(l, row[j][0]) != 'a':
+                    l = l[ind(l, row[j][0])].children
                 else:
                     offset += 1
             if (not exist(l, values[0])) and values[1]!= '':
@@ -81,8 +82,10 @@ def gen():
 def display_runtime():
     print("\n-------------%s seconds ----------------" % (time.time()-START))
 
-gen()
-display_runtime()
+
+if __name__ == "__main__":
+    gen()
+    display_runtime()
 #genCountryNames()
 #write2Excel()
 #genStateNames()
