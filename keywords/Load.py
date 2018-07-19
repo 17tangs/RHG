@@ -156,6 +156,24 @@ def genStateNames():
 
 
 
+def strDigit(i):
+    i = i%1000
+    if len(str(i)) == 1:
+        return "00" + str(i)
+    elif len(str(i)) == 2:
+        return "0" + str(i)
+    else:
+        return str(i)
+
+def genNum(l):
+    nums = [0]
+    counter = 0
+    for i in range(1,len(l)):
+        if l[i] != l[i-1]:
+            counter += 1
+        nums.append(counter)
+    return nums
+
 #index of excel fields:
 INPUT = 'hotelCode-GRT-PRT.xls'
 I = indices()
@@ -174,11 +192,14 @@ PRT_CODE_INDEX = I[11]
 DATA = load()
 hotelCodes = DATA["hotelCode"]
 hotelNames = DATA["hotelName"]
+hotelNumbers = genNum(hotelNames)
 cities = DATA["city"]
 stateNames = DATA["state"]
 stateCodes = DATA["stateCode"]
 countryNames = DATA["country"]
 countryCodes = DATA["countryCode"]
+companyName = ["Radisson Hotel Group" for s in range(len(hotelCodes))]
+digitCode = ["000" for i in range(len(hotelCodes))]
 brands = DATA["brand"]
 grt = DATA["room"]
 grtCode = DATA["roomCode"]
@@ -191,6 +212,7 @@ KEYSTATE = DIRECTORY + "keyState.xml"
 KEYCITY = DIRECTORY + "keyCity.xml"
 KEYBRAND = DIRECTORY + "keyBrand.xml"
 KEYROOM = DIRECTORY + "keyRoom.xml"
+KEYNAV = DIRECTORY + "keyNav.xml"
 OUTPUT = 'C:\\Users\\gf174cq\\projects\\RHG\\xsd\\keywordTest.xlsx'
 LEN = len(hotelCodes) #length of all lists
 

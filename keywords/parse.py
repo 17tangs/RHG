@@ -86,4 +86,7 @@ def parseField(t, i):
             s = parsePhrase(p,i)
             if s != '':
                 phrases.append(s)
-        return t[-1].join(phrases)
+        if len(t[-1]) == 1:
+            return t[-1][0].join(phrases)
+        else:
+            return join(phrases, t[-1])

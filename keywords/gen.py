@@ -27,10 +27,10 @@ def genTree(structure):
     tree = []
     data = [[[parseField(f, i) for f in layer] for layer in structure] for i in range(LEN)]
     for d in range(depth):
-        isAbstract = "No" if d == depth - 1 else "Yes"
+        isAbstract = "No"# "No" if d == depth - 1 else "Yes"
         for i in range(LEN):
             row = data[i]
-            meta = True if structure[d][0][0].split('|')[0] == "hotelNames" and d == depth-1 else False
+            meta = True if structure[d][0][0].split('|')[0] == "hotelNames" and d == depth-1 and structure[0][0][0].split('|')[0] == "countryNames" else False
             values = row[d]
             l = tree
             offset = 0
@@ -43,6 +43,9 @@ def genTree(structure):
                 k = Keyword(values[0], values[1], values[2], isAbstract, d-offset, None, meta)
                 l.append(k)
     return tree
+
+
+
 
 def genHeader(s):
     return "<?xml version=\"1.0\" encoding = \"utf-8\"?>\n<Category name = \"" + s + "\" xmlName = \"" + s + "\" isPublishable = \"Yes\">\n"
@@ -71,12 +74,13 @@ def genFile(sn,xmln, fn):
 def gen():
     if not os.path.exists(DIRECTORY):
         os.makedirs(DIRECTORY)
-    genFile(brandStructure, "Brand", KEYBRAND)
-    genFile(countryStructure, "Country", KEYCOUNTRY)
-    genFile(stateStructure, "State", KEYSTATE)
-    genFile(cityStructure, "City", KEYCITY)
-    genFile(hotelStructure, "Hotel Name", KEYHOTELNAME)
-    genFile(roomStructure, "Room Type", KEYROOM)
+    # genFile(brandStructure, "Brand", KEYBRAND)
+    # genFile(countryStructure, "Country", KEYCOUNTRY)
+    # genFile(stateStructure, "State", KEYSTATE)
+    # genFile(cityStructure, "City", KEYCITY)
+    # genFile(hotelStructure, "Hotel Name", KEYHOTELNAME)
+    # genFile(roomStructure, "Room Type", KEYROOM)
+    genFile(navStructure, "Navigation", KEYNAV)
 
 
 def display_runtime():
