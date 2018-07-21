@@ -22,6 +22,7 @@ def exist(l, tar):  #return true if target (tar) is in list (l)
     return False
 
 #generate tree structure
+#comment
 def genTree(structure):
     depth = len(structure)
     tree = []
