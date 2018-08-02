@@ -41,7 +41,7 @@ def parseComponentList(sheet):
                 del c[1]
                 cs.append(c)
                 c = []
-    #take care of the last component then return 
+    #take care of the last component then return
     if c != []:
         del c[1]
         cs.append(c)
@@ -79,7 +79,7 @@ def parseComponent(l):
             general.append(i)
         else:
             meta.append(i)
-    return [general, meta]
+    return (general, meta)
 
 #parsing the generla/meta component to decide whether to include or not
 def cl(general, meta):
@@ -114,29 +114,25 @@ def genContent(l, isComp, isElement):
     if isElement:
         #the path denotes the folder where the xsd elements should go. This is stored in the second line of the excel file so we have to handle for that
         path = l[1]
-        #general list
-        gl = parseComponent(l[2:])[0]
-        #meta list
-        ml = parseComponent(l[2:])[1]
+        #general list and meta list
+        gl, ml = parseComponent(l[2:])
     else:
         #if it's not an element, then it's a component which stays in the general folder
         path = ["general"]
-        #general list
-        gl = parseComponent(l[1:])[0]
-        #meta list
-        ml = parseComponent(l[1:])[1]
-    #ed = element data 
+        #general list and meta list
+        gl,ml = parseComponent(l[1:])
+    #ed = element data
     #field list (ge = general elements)
     ge = []
     for ed in gl:
-        #always not mandatory, each element is not a component and not complex 
+        #always not mandatory, each element is not a component and not complex
         element = Element(ed[0],ed[1], ed[2], ed[3], "No", False)
         ge.append(element)
     general = Element("General", "", "", "No", "No", False, ge, True, False) if ge != [] else None
     #meta elements = me
     me = []
     for ed in ml:
-        #always not mandatory, each element is not a component and not complex 
+        #always not mandatory, each element is not a component and not complex
         element = Element(ed[0],ed[1], ed[2], ed[3], "No", False)
         me.append(element)
     meta = Element("Metadata", "", "", "No", "No", False, me, True, False) if me != [] else None

@@ -103,9 +103,6 @@ class Element:
                     r = x
             elif t[:7] == "keyword":
                 x = "key"+parseName(s[s.index(':')+1:s.index(')')])
-                f=open('hi.txt', 'a')
-                f.write(x+'\n')
-                f.close()
                 self.includes.append("../keywords/" + x + ".xsd")
                 r = x
         return r
@@ -177,6 +174,7 @@ class Element:
             s = self.genComplexElement()
         return s
 
+
     def gen(self):
         if self.name == "":
             return ""
@@ -184,3 +182,19 @@ class Element:
             return self.genType()
         else:
             return self.genElement()
+
+
+
+
+
+
+def removeKeywordDuplicate():
+    f = open('hi.txt','r')
+    l = [s for s in f.read().split('\n') if s != '']
+    f.close()
+    l = list(set(l))
+    l.sort()
+    k = open('hi.txt', 'w')
+    for i in l:
+        k.write(i + '\n')
+    k.close()
